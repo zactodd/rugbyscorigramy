@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+*.h5
+*.pyc
+*.jpeg
+*.png
+*.jpg
+.DS_Store
+*-checkpoint.py
+.idea*
+.idea
+.vscode
