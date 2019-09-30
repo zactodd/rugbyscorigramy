@@ -11,6 +11,9 @@ SCORE_OUTCOMES = {
     (3, 2), (2, 3), (2, 2)
 }
 
+POOL_A = {""}
+
+
 
 def pool_score_outcomes(current_pool, matches, match_outcomes=SCORE_OUTCOMES):
     pools_outcomes = {t: {s} for t, s in current_pool.items()}
