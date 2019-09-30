@@ -1,7 +1,4 @@
 import datetime
-import matplotlib.pyplot as plt
-from scipy.interpolate import spline
-import numpy as np
 
 MATCHES = """1,Friday,Sep. 20,A,Japan vs. Russia,19:45,Tokyo Stadium
 2,Saturday,Sep. 21,D,Australia vs. Fiji,13:45,Sapporo Dome
@@ -44,31 +41,6 @@ MATCHES = """1,Friday,Sep. 20,A,Japan vs. Russia,19:45,Tokyo Stadium
 39,Sunday,Oct. 13,D,Wales vs. Uruguay,17:15,Kumamoto Stadium
 40,Sunday,Oct. 13,A,Japan vs. Scotland,19:45,International Stadium Yokohama"""
 
-RANKINGS = """1,(2),NEW ZEALAND,89.40,
-2,(4),IRELAND,88.86,
-3,(3),ENGLAND,88.13,
-4,(1),WALES,87.92,
-5,(5),SOUTH AFRICA,86.83,
-6,(6),AUSTRALIA,84.05,
-7,(7),SCOTLAND,81.00,
-8,(8),FRANCE,79.72,
-9,(10),FIJI,77.43,
-10,(9),JAPAN,77.21,
-11,(11),ARGENTINA,76.29,
-12,(12),GEORGIA,73.29,
-13,(13),ITALY,72.04,
-14,(14),UNITED STATES,71.93,
-15,(15),TONGA,71.04,
-16,(16),SAMOA,69.08,
-19,(19),URUGUAY,65.18,
-20,(20),RUSSIA,64.81,
-21,(21),CANADA,61.36,
-23,(23),NAMIBIA,61.01"""
-
-RANKINGS_DICT = {}
-for r in RANKINGS.split(",\n"):
-    rank, _, country, points = r.split(",")
-    RANKINGS_DICT.update({country: (int(rank), float(points))})
 
 DAY_ZERO = "Sep. 20"
 TIME_ZERO = "00:00"
@@ -79,4 +51,21 @@ ZERO_DATE = datetime.datetime.strptime(TIME_CONCAT.format(DAY_ZERO, TIME_ZERO), 
 SECONDS_PER_DAY = 86400
 
 MATCH_HEADINGS = ["match no", "day", "date", "pool", "teams", "time", "stadium"]
-BASE_DATA = [{h: d for h, d in zip(MATCH_HEADINGS, match.split(","))} for match in MATCHES.split("\n")]
+BASE_MATCHES_DATA = [{h: d for h, d in zip(MATCH_HEADINGS, match.split(","))} for match in MATCHES.split("\n")]
+
+DAY_ZERO = "Sep. 20"
+TIME_ZERO = "00:00"
+
+TIME_CONCAT = "{} {} 2019"
+TIME_FORMAT = "%b. %d %H:%M %Y"
+
+
+def remaining_matched(matches=BASE_MATCHES_DATA):
+    now = datetime.datetime.now()
+    return [m for m in BASE_MATCHES_DATA if is_match_after(m, now)]
+
+
+def is_match_after(match_data, date):
+    full_str = TIME_CONCAT.format(match_data["date"], match_data["time"])
+    match_date = datetime.datetime.strptime(full_str, TIME_FORMAT)
+    return match_date - date > datetime.timedelta(0)

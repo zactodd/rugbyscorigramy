@@ -2,7 +2,7 @@ import datetime
 import matplotlib.pyplot as plt
 from scipy.interpolate import spline
 import numpy as np
-from match_data import BASE_DATA
+from match_data import BASE_MATCHES_DATA, TIME_CONCAT, TIME_FORMAT, ZERO_DATE, SECONDS_PER_DAY
 
 RANKINGS = """1,(2),NEW ZEALAND,89.40,
 2,(4),IRELAND,88.86,
@@ -29,14 +29,6 @@ RANKINGS_DICT = {}
 for r in RANKINGS.split(",\n"):
     rank, _, country, points = r.split(",")
     RANKINGS_DICT.update({country: (int(rank), float(points))})
-
-DAY_ZERO = "Sep. 20"
-TIME_ZERO = "00:00"
-
-TIME_CONCAT = "{} {} 2019"
-TIME_FORMAT = "%b. %d %H:%M %Y"
-ZERO_DATE = datetime.datetime.strptime(TIME_CONCAT.format(DAY_ZERO, TIME_ZERO), TIME_FORMAT)
-SECONDS_PER_DAY = 86400
 
 
 def rel_data(data):
@@ -82,7 +74,7 @@ def cuveify(x, y, p=50):
 
 
 for c in RANKINGS_DICT:
-    rds, time = zip(*team_curve(rel_data(BASE_DATA), c, "rd"))
+    rds, time = zip(*team_curve(rel_data(BASE_MATCHES_DATA), c, "rd"))
     if all(r >= 0 for r in rds):
         print(c)
         x, y = cuveify(time, rds)
