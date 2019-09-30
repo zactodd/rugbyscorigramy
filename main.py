@@ -1724,7 +1724,6 @@ for i, row in enumerate(base_result_mat):
 
     width = 0.35
 
-
     colours = ["lightblue", "gold", "lightcoral", "blue", "limegreen", "olivedrab", "black",
                "darkgreen", "lightslategrey", "red"]
     ind = np.arange(len(tier1))
