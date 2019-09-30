@@ -60,12 +60,15 @@ TIME_CONCAT = "{} {} 2019"
 TIME_FORMAT = "%b. %d %H:%M %Y"
 
 
-def remaining_matched(matches=BASE_MATCHES_DATA):
-    now = datetime.datetime.now()
-    return [m for m in BASE_MATCHES_DATA if is_match_after(m, now)]
+def remaining_matches(matches=BASE_MATCHES_DATA, date=datetime.datetime.now()):
+    return [m for m in BASE_MATCHES_DATA if is_match_after(m, date)]
 
 
 def is_match_after(match_data, date):
     full_str = TIME_CONCAT.format(match_data["date"], match_data["time"])
     match_date = datetime.datetime.strptime(full_str, TIME_FORMAT)
     return match_date - date > datetime.timedelta(0)
+
+
+def matches_teams(matches_data, pool=None):
+    return [m["teams"].split(" vs. ") for m in matches_data if pool is None or m["pool"] == pool]
