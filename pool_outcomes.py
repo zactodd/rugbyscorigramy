@@ -17,10 +17,17 @@ pool_a_matches = matches_teams(remaining_matches(), "A")
 
 
 def pool_score_outcomes(current_pool, matches, match_outcomes=SCORE_OUTCOMES):
-    pools_outcomes = {t: {s} for t, s in current_pool.items()}
+    outcomes = [current_pool]
     for t1, t2 in matches:
         t1, t2 = t1.upper(), t2.upper()
-        pools_outcomes[t1] = {s + o[0] for s, o in product(pools_outcomes[t1], match_outcomes)}
-        pools_outcomes[t2] = {s + o[1] for s, o in product(pools_outcomes[t2], match_outcomes)}
-    return pools_outcomes
+        new_outcomes = []
+        for o, (p1, p2) in product(outcomes, match_outcomes):
+            o = o.copy()
+            o[t1] += p1
+            o[t2] += p2
+            new_outcomes.append(o)
+        outcomes = new_outcomes
+    return outcomes
 
+
+print(pool_score_outcomes(POOL_A, pool_a_matches))
