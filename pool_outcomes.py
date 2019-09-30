@@ -12,4 +12,9 @@ SCORE_OUTCOMES = {
 }
 
 
-
+def pool_score_outcomes(current_pool, matches, match_outcomes=SCORE_OUTCOMES):
+    pools_outcomes = {t: {s} for t, s in current_pool.items()}
+    for t1, t2 in matches:
+        pools_outcomes[t1] = {s + o for s, o in product(pools_outcomes[t1], match_outcomes)}
+        pools_outcomes[t2] = {s + o for s, o in product(pools_outcomes[t2], match_outcomes)}
+    return pools_outcomes
