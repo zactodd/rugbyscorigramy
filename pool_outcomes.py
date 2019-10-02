@@ -14,8 +14,8 @@ SCORE_OUTCOMES = {
 }
 
 POOL_A = {"JAPAN": 9, "IRELAND": 6, "SAMOA": 5, "RUSSIA": 0, "SCOTLAND": 5}
-POOL_B = {"NEW ZEALAND": 4, "SOUTH AFRICA": 5, "ITALY": 10, "CANADA": 0, "NAMIBIA": 0}
-POOL_C = {"ENGLAND": 10, "FRANCE": 4, "ARGENTINA": 6, "TONGA": 0, "UNITED STATES": 0}
+POOL_B = {"NEW ZEALAND": 9, "SOUTH AFRICA": 5, "ITALY": 10, "CANADA": 0, "NAMIBIA": 0}
+POOL_C = {"ENGLAND": 10, "FRANCE": 9, "ARGENTINA": 6, "TONGA": 0, "UNITED STATES": 0}
 POOL_D = {"WALES": 9, "AUSTRALIA": 6, "FIJI": 2, "URUGUAY": 4, "GEORGIA": 5}
 
 pool_a_matches = matches_teams(remaining_matches(), "A")
