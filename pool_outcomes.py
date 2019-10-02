@@ -64,5 +64,5 @@ def agg_pool_outcomes(outcomes, transform_totals=None):
 
 for i in "ABCD":
     print("POOL: ", i)
-    trans = "lambda x: round(math.log(x), 4)"
+    trans = None  # "lambda x: round(math.log(x), 4)"
     exec("agg_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches), {})".format(i, i.lower(), trans))
