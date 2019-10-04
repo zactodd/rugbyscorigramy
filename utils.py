@@ -13,3 +13,16 @@ def points_exchange(rank_differences, score_difference, is_rwc=False):
         return min((10 - rank_differences) * multiplier * 0.1, multiplier * 2)
     else:
         return min((10 - rank_differences) * multiplier * 0.15, multiplier * 3)
+
+
+def running_rankings(match_results, current_rankings):
+    for m in match_results:
+        t1, t2 = m["teams"]
+        s1, s2 = m["score"]
+        r1, r2 = current_rankings[t1], current_rankings[t2]
+
+        r1, r2 = rankings_change(r1, r2, s1, s2, m["nha"], m["rwc"])
+
+        current_rankings[t1] = r1
+        current_rankings[t2] = t2
+    return current_rankings
