@@ -13,10 +13,10 @@ SCORE_OUTCOMES = {
     (3, 2), (2, 3), (2, 2)
 }
 
-POOL_A = {"JAPAN": 9, "IRELAND": 11, "SAMOA": 5, "RUSSIA": 0, "SCOTLAND": 5}
+POOL_A = {"JAPAN": 14, "IRELAND": 11, "SAMOA": 5, "RUSSIA": 0, "SCOTLAND": 5}
 POOL_B = {"NEW ZEALAND": 9, "SOUTH AFRICA": 10, "ITALY": 10, "CANADA": 0, "NAMIBIA": 0}
-POOL_C = {"ENGLAND": 10, "FRANCE": 9, "ARGENTINA": 6, "TONGA": 0, "UNITED STATES": 0}
-POOL_D = {"WALES": 9, "AUSTRALIA": 6, "FIJI": 7, "URUGUAY": 4, "GEORGIA": 5}
+POOL_C = {"ENGLAND": 15, "FRANCE": 9, "ARGENTINA": 6, "TONGA": 0, "UNITED STATES": 0}
+POOL_D = {"WALES": 9, "AUSTRALIA": 11, "FIJI": 7, "URUGUAY": 4, "GEORGIA": 5}
 
 pool_a_matches = matches_in_pool(remaining_matches(), "A")
 pool_b_matches = matches_in_pool(remaining_matches(), "B")
@@ -65,4 +65,4 @@ def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
 for i in "ABCD":
     print("POOL: ", i)
     trans = None  # "lambda x: round(math.log(x), 4) if x > 0 else 0"
-    exec("agg_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches), {})".format(i, i.lower(), trans))
+    exec("agg_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches), {}, {})".format(i, i.lower(), trans, -1))
