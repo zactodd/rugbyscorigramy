@@ -96,14 +96,29 @@ class PickAndGo(IDataScrapper):
         super().__init__()
         self.URL = "http://www.lassen.co.nz/pickandgo.php"
 
-    def collect_data(self):
-        pass
-
     def collect_headers(self):
         r = requests.post(self.URL, data=self._post_params())
         tree = html.fromstring(r.content)
         table_rows_str = '//table[@style="border: 1px solid #000;"]/tr/th/text()'
         return tree.xpath(table_rows_str)
+
+    def collect_data(self):
+        r = requests.post(self.URL, data=self._post_params())
+        tree = html.fromstring(r.content)
+        table_rows_str = '//table[@style="border: 1px solid #000;"]/tr'
+        rows = []
+        for i in range(2, len(tree.xpath(table_rows_str))):
+            row = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
+            row = [str(r) for r in row]
+            match_str = row[2]
+            if len(match_str) == 6:
+                opposition = str(tree.xpath("{}[{}]/td/font/text()".format(table_rows_str, i))[0])
+                if match_str.find("v") == 1:
+                    row[2] = opposition + match_str
+                else:
+                    row[2] = match_str + opposition
+            rows.extend(row)
+        return rows
 
     def save_data(self):
         pass
@@ -113,7 +128,3 @@ class PickAndGo(IDataScrapper):
         return {
             "txtfyear": 1850, "txttyear": 2020, "Submit": "and Go!"
         }
-
-pg = PickAndGo()
-
-print(pg.get_data_headers())
