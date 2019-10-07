@@ -1,6 +1,7 @@
 import requests
 from lxml import html
-
+import datetime
+import django
 
 class IDataScrapper:
     def __init__(self):
@@ -35,10 +36,10 @@ class ESPNScrum(IDataScrapper):
 
     def __init__(self):
         super().__init__()
-        self.ESPN_SCRUM_URL = "http://stats.espnscrum.com/statsguru/rugby/stats/index.html"
+        self.URL = "http://stats.espnscrum.com/statsguru/rugby/stats/index.html"
 
     def collect_headers(self):
-        r = requests.get(self.query_url(self.ESPN_SCRUM_URL, self._page_number_query()))
+        r = requests.get(self.query_url(self.URL, self._page_number_query()))
         tree = html.fromstring(r.content)
         headers_str = "//div[@id='scrumArticlesBoxContent']/table[@class='engineTable']/*/tr[@class='headlinks']"
         *front, last = tree.xpath("{}/th/a/text()".format(headers_str))
@@ -63,7 +64,7 @@ class ESPNScrum(IDataScrapper):
         }
 
     def _page_rows(self, page):
-        r = requests.get(self.query_url(self.ESPN_SCRUM_URL, self._page_number_query(page)))
+        r = requests.get(self.query_url(self.URL, self._page_number_query(page)))
         tree = html.fromstring(r.content)
         table_rows_str = "//div[@id='scrumArticlesBoxContent']/table[@class='engineTable']/*/tr"
         rows = []
@@ -93,12 +94,25 @@ class ESPNScrum(IDataScrapper):
 class PickAndGo(IDataScrapper):
     def __init__(self):
         super().__init__()
+        self.URL = "http://www.lassen.co.nz/pickandgo.php"
 
     def collect_data(self):
         pass
 
     def collect_headers(self):
-        pass
+        r = requests.post(self.URL, data=self._post_params())
 
     def save_data(self):
         pass
+
+    @staticmethod
+    def _post_params():
+        return {
+            "txtfyear": 1850, "txttyear": 2020, "Submit": "and Go!"
+        }
+
+
+
+pg = PickAndGo()
+
+print(pg.get_data_headers())
