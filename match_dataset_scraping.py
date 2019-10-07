@@ -1,7 +1,7 @@
 import requests
 from lxml import html
 import datetime
-import django
+
 
 class IDataScrapper:
     def __init__(self):
@@ -107,6 +107,7 @@ class PickAndGo(IDataScrapper):
         tree = html.fromstring(r.content)
         table_rows_str = '//table[@style="border: 1px solid #000;"]/tr'
         rows = []
+
         for i in range(2, len(tree.xpath(table_rows_str))):
             row = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
             row = [str(r) for r in row]
@@ -126,5 +127,7 @@ class PickAndGo(IDataScrapper):
     @staticmethod
     def _post_params():
         return {
-            "txtfyear": 1850, "txttyear": 2020, "Submit": "and Go!"
+            "txtfyear": 1870,
+            "txttyear": datetime.datetime.now().year + 1,
+            "Submit": "and Go!"
         }
