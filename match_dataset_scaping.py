@@ -88,3 +88,17 @@ class ESPNScrum(IDataScrapper):
     def _page_limit():
         # TODO implement page limit search
         return 382
+
+
+class PickAndGo(IDataScrapper):
+    def __init__(self):
+        super().__init__()
+
+    def collect_data(self):
+        pass
+
+    def collect_headers(self):
+        pass
+
+    def save_data(self):
+        pass
