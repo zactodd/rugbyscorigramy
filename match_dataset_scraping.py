@@ -101,6 +101,9 @@ class PickAndGo(IDataScrapper):
 
     def collect_headers(self):
         r = requests.post(self.URL, data=self._post_params())
+        tree = html.fromstring(r.content)
+        table_rows_str = '//table[@style="border: 1px solid #000;"]/tr/th/text()'
+        return tree.xpath(table_rows_str)
 
     def save_data(self):
         pass
@@ -110,8 +113,6 @@ class PickAndGo(IDataScrapper):
         return {
             "txtfyear": 1850, "txttyear": 2020, "Submit": "and Go!"
         }
-
-
 
 pg = PickAndGo()
 
