@@ -86,10 +86,13 @@ class ESPNScrum(IDataScrapper):
             rows.extend(rs)
         return rows
 
-    @staticmethod
-    def _page_limit():
-        # TODO implement page limit search
-        return 382
+    def _page_limit(self):
+        r = requests.get(self.query_url(self.URL, self._page_number_query()))
+        tree = html.fromstring(r.content)
+        max_page_number_str = "//div[@id='scrumArticlesBoxContent']" \
+                              "/table/tr/td/table[@class='engineTable']" \
+                              "/tr/td[@style = 'text-align: left;  padding-top: 3px;']/text()"
+        return int(str(tree.xpath(max_page_number_str)[0])[-4:-1])
 
 
 class PickAndGo(IDataScrapper):
