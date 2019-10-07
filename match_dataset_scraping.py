@@ -71,7 +71,8 @@ class ESPNScrum(IDataScrapper):
         for i in range(1, len(tree.xpath(table_rows_str))):
             first, lower_middle = tree.xpath("{}[{}]/td/a/text()".format(table_rows_str, i))
             *upper_middle, last = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
-            rows.append(list((first, *upper_middle, lower_middle, last)))
+            row = [str(r) for r in (first, *upper_middle, lower_middle, last)]
+            rows.append(row)
         return rows
 
     def _pages_rows(self, first_page=1, last_page=None):
@@ -118,7 +119,7 @@ class PickAndGo(IDataScrapper):
                     row[2] = opposition + match_str
                 else:
                     row[2] = match_str + opposition
-            rows.extend(row)
+            rows.append(row)
         return rows
 
     def save_data(self):
