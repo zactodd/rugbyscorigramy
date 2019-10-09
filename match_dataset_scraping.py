@@ -2,6 +2,7 @@ import requests
 from lxml import html
 import datetime
 import csv
+import tqdm
 
 
 class IDataScrapper:
@@ -80,7 +81,7 @@ class ESPNScrum(IDataScrapper):
         if last_page is None:
             last_page = self._page_limit()
         rows = []
-        for i in range(first_page, last_page):
+        for i in tqdm.tqdm(range(first_page, last_page)):
             rs = self._page_rows(i)
             if len(rs) == 0:
                 break
@@ -113,7 +114,7 @@ class PickAndGo(IDataScrapper):
         table_rows_str = '//table[@style="border: 1px solid #000;"]/tr'
         rows = []
 
-        for i in range(2, len(tree.xpath(table_rows_str))):
+        for i in tqdm.tqdm(range(2, len(tree.xpath(table_rows_str)))):
             row = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
             row = [str(r) for r in row]
             match_str = row[2]
@@ -133,3 +134,12 @@ class PickAndGo(IDataScrapper):
             "txttyear": datetime.datetime.now().year + 1,
             "Submit": "and Go!"
         }
+
+
+# es = ESPNScrum()
+# es.collect_data()
+# es.save_data("espn_scrum_data.csv")
+#
+# pg = PickAndGo()
+# pg.collect_data()
+# pg.save_data("pick_and_go_data.csv")
