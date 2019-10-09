@@ -1,6 +1,7 @@
 import requests
 from lxml import html
 import datetime
+import csv
 
 
 class IDataScrapper:
@@ -24,8 +25,12 @@ class IDataScrapper:
             self.data = self.collect_data()
         return self.headers
 
-    def save_data(self):
-        raise NotImplementedError()
+    def save_data(self, file):
+        with open(file, 'w') as f:
+            w = csv.writer(f)
+            w.writerow(self.headers)
+            for row in self.data:
+                w.writerow(row)
 
     @staticmethod
     def query_url(url, queries):
@@ -48,10 +53,6 @@ class ESPNScrum(IDataScrapper):
 
     def collect_data(self):
         self.data = self._pages_rows()
-
-    def save_data(self):
-        # TODO implement saving method
-        pass
 
     @staticmethod
     def _page_number_query(page=1):
@@ -124,9 +125,6 @@ class PickAndGo(IDataScrapper):
                     row[2] = match_str + opposition
             rows.append(row)
         return rows
-
-    def save_data(self):
-        pass
 
     @staticmethod
     def _post_params():
