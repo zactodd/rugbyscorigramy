@@ -38,19 +38,7 @@ def pool_score_outcomes(current_pool, matches, match_outcomes=SCORE_OUTCOMES):
     return outcomes
 
 
-def pprint_pool_outcomes(outcomes):
-    row_format = " | ".join("{:15} {:>3}" for _ in range(5))
-    rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
-    table_format = "\n".join(["Outcome: {}", rank_row, row_format, "\n"])
-    for i, o in enumerate(outcomes):
-        results = sorted(o.items(), key=lambda x: x[1], reverse=True)
-        print(table_format.format(i, *list(chain.from_iterable(results))))
-
-
 def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
-    row_format = " | ".join("{:15} {:>8}" for _ in range(5))
-    rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
-    table_format = "\n".join([rank_row, row_format, "\n"])
     ranks_dicts = {t: 0 for t in outcomes[0]}
     for o in outcomes:
         for t, s in sorted(o.items(), key=lambda x: x[1], reverse=True)[0:position_till]:
@@ -59,13 +47,10 @@ def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
     if transform_totals is not None:
         ranks_dicts = {t: transform_totals(s) for t, s in ranks_dicts.items()}
     results = sorted(ranks_dicts.items(), key=lambda x: x[1], reverse=True)
-    print(table_format.format(*list(chain.from_iterable(results))))
+    return results
 
 
 def max_min_pool_outcomes(outcomes):
-    row_format = " | ".join("{:15} {:>8}" for _ in range(5))
-    rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
-    table_format = "\n".join([rank_row, row_format, "\n"])
     ranks_dicts = {t: [float("inf"), 0] for t in outcomes[0]}
     for o in outcomes:
         for t, s in sorted(o.items(), key=lambda x: x[1], reverse=True):
@@ -74,10 +59,31 @@ def max_min_pool_outcomes(outcomes):
             if s > ranks_dicts[t][1]:
                 ranks_dicts[t][1] = s
     results = sorted(ranks_dicts.items(), key=lambda x: x[1][::-1], reverse=True)
-    results = [(k, str(l if l == u else [l, u])) for k, (l, u) in results]
-    print(table_format.format(*list(chain.from_iterable(results))))
+    return results
 
 
-for i in "ABCD":
-    print("POOL: ", i)
-    exec("max_min_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches))".format(i, i.lower()))
+def pprint_pool_outcomes(outcomes):
+    row_format = " | ".join("{:15} {:>8}" for _ in range(5))
+    rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
+    table_format = "\n".join(["Outcome: {}", rank_row, row_format, "\n"])
+    for i, o in enumerate(outcomes):
+        results = sorted(o.items(), key=lambda x: x[1], reverse=True)
+        print(table_format.format(i, *list(chain.from_iterable(results))))
+
+
+def pprint_results_across(pools_results):
+    row_format = " | ".join("{:15} {:>8}" for _ in range(5))
+    rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
+    table_format = "\n".join(["{}", rank_row, "-" * len(rank_row), row_format, "\n"])
+    for p, result in pools_results.items():
+        print(table_format.format(p, *list(str(i) for i in chain.from_iterable(result))))
+
+
+def pprint_results_down(pools_results):
+    row_format = "{:5}| " + " | ".join("{:15} {:>8}" for _ in range(4))
+    headers_rows = row_format.format("", *[j for i in zip(pools_results.keys(), [""] * 4) for j in i])
+    print(headers_rows)
+    print("-" * len(headers_rows))
+    for i, r in enumerate(["1st", "2nd", "3rd", "4th", "5th"]):
+        print(row_format.format(r, *[str(j) for v in pools_results.values() for j in v[i]]))
+
