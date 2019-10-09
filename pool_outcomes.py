@@ -39,7 +39,7 @@ def pool_score_outcomes(current_pool, matches, match_outcomes=SCORE_OUTCOMES):
 
 
 def pprint_pool_outcomes(outcomes):
-    row_format = " | ".join("{:15} {:3}" for _ in range(5))
+    row_format = " | ".join("{:15} {:>3}" for _ in range(5))
     rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
     table_format = "\n".join(["Outcome: {}", rank_row, row_format, "\n"])
     for i, o in enumerate(outcomes):
@@ -48,7 +48,7 @@ def pprint_pool_outcomes(outcomes):
 
 
 def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
-    row_format = " | ".join("{:15} {:8}" for _ in range(5))
+    row_format = " | ".join("{:15} {:>8}" for _ in range(5))
     rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
     table_format = "\n".join([rank_row, row_format, "\n"])
     ranks_dicts = {t: 0 for t in outcomes[0]}
@@ -62,7 +62,22 @@ def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
     print(table_format.format(*list(chain.from_iterable(results))))
 
 
+def max_min_pool_outcomes(outcomes):
+    row_format = " | ".join("{:15} {:>8}" for _ in range(5))
+    rank_row = row_format.format(*["1st", "", "2nd", "", "3rd", "", "4th", "", "5th", ""])
+    table_format = "\n".join([rank_row, row_format, "\n"])
+    ranks_dicts = {t: [float("inf"), 0] for t in outcomes[0]}
+    for o in outcomes:
+        for t, s in sorted(o.items(), key=lambda x: x[1], reverse=True):
+            if s < ranks_dicts[t][0]:
+                ranks_dicts[t][0] = s
+            if s > ranks_dicts[t][1]:
+                ranks_dicts[t][1] = s
+    results = sorted(ranks_dicts.items(), key=lambda x: x[1][::-1], reverse=True)
+    results = [(k, str(l if l == u else [l, u])) for k, (l, u) in results]
+    print(table_format.format(*list(chain.from_iterable(results))))
+
+
 for i in "ABCD":
     print("POOL: ", i)
-    trans = None # "lambda x: round(math.log(x), 4) if x > 0 else 0" #
-    exec("agg_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches), {}, {})".format(i, i.lower(), trans, 3))
+    exec("max_min_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches))".format(i, i.lower()))
