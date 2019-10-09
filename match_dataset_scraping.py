@@ -24,14 +24,18 @@ class IDataScrapper:
     def get_data(self):
         if self.data is None:
             self.data = self.collect_data()
-        return self.headers
+        return self.data
 
     def save_data(self, file):
         with open(file, 'w') as f:
             w = csv.writer(f)
-            w.writerow(self.headers)
-            for row in self.data:
-                w.writerow(row)
+            w.writerow(self.get_data_headers())
+            for row in self.get_data():
+                try:
+                    w.writerow(row)
+                except Exception as e:
+                    print(e)
+                    pass
 
     @staticmethod
     def query_url(url, queries):
@@ -53,7 +57,14 @@ class ESPNScrum(IDataScrapper):
         return tuple((*front, *middle, last))
 
     def collect_data(self):
-        self.data = self._pages_rows()
+        last_page = self._page_limit()
+        rows = []
+        for i in tqdm.tqdm(range(1, last_page)):
+            rs = self._page_rows(i)
+            if len(rs) == 0:
+                break
+            rows.extend(rs)
+        return rows
 
     @staticmethod
     def _page_number_query(page=1):
@@ -75,17 +86,6 @@ class ESPNScrum(IDataScrapper):
             *upper_middle, last = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
             row = [str(r) for r in (first, *upper_middle, lower_middle, last)]
             rows.append(row)
-        return rows
-
-    def _pages_rows(self, first_page=1, last_page=None):
-        if last_page is None:
-            last_page = self._page_limit()
-        rows = []
-        for i in tqdm.tqdm(range(first_page, last_page)):
-            rs = self._page_rows(i)
-            if len(rs) == 0:
-                break
-            rows.extend(rs)
         return rows
 
     def _page_limit(self):
@@ -119,11 +119,13 @@ class PickAndGo(IDataScrapper):
             row = [str(r) for r in row]
             match_str = row[2]
             if len(match_str) == 6:
-                opposition = str(tree.xpath("{}[{}]/td/font/text()".format(table_rows_str, i))[0])
+                opposition = str(tree.xpath("{}[{}]/td/font/text()".format(table_rows_str, i)))
+                if len(opposition) == 0:
+                    print(match_str)
                 if match_str.find("v") == 1:
-                    row[2] = opposition + match_str
+                    row[2] = opposition[0] + match_str
                 else:
-                    row[2] = match_str + opposition
+                    row[2] = match_str[0] + opposition
             rows.append(row)
         return rows
 
@@ -137,9 +139,7 @@ class PickAndGo(IDataScrapper):
 
 
 # es = ESPNScrum()
-# es.collect_data()
 # es.save_data("espn_scrum_data.csv")
 #
 # pg = PickAndGo()
-# pg.collect_data()
 # pg.save_data("pick_and_go_data.csv")
