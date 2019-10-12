@@ -46,8 +46,7 @@ def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
 
     if transform_totals is not None:
         ranks_dicts = {t: transform_totals(s) for t, s in ranks_dicts.items()}
-    results = sorted(ranks_dicts.items(), key=lambda x: x[1], reverse=True)
-    return results
+    return ranks_dicts
 
 
 def max_min_pool_outcomes(outcomes):
@@ -58,8 +57,7 @@ def max_min_pool_outcomes(outcomes):
                 ranks_dicts[t][0] = s
             if s > ranks_dicts[t][1]:
                 ranks_dicts[t][1] = s
-    results = sorted(ranks_dicts.items(), key=lambda x: x[1][::-1], reverse=True)
-    return results
+    return ranks_dicts
 
 
 def pprint_pool_outcomes(outcomes):
