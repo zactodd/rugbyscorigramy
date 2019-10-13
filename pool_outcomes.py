@@ -14,8 +14,8 @@ SCORE_OUTCOMES = {
 }
 
 POOL_A = {"JAPAN": 14, "IRELAND": 16, "SAMOA": 5, "RUSSIA": 0, "SCOTLAND": 10}
-POOL_B = {"NEW ZEALAND": 16, "SOUTH AFRICA": 15, "ITALY": 12, "CANADA": 0, "NAMIBIA": 0}
-POOL_C = {"ENGLAND": 17, "FRANCE": 14, "ARGENTINA": 11, "TONGA": 1, "UNITED STATES": 0}
+POOL_B = {"NEW ZEALAND": 16, "SOUTH AFRICA": 15, "ITALY": 12, "CANADA": 2, "NAMIBIA": 2}
+POOL_C = {"ENGLAND": 17, "FRANCE": 14, "ARGENTINA": 11, "TONGA": 6, "UNITED STATES": 0}
 POOL_D = {"WALES": 14, "AUSTRALIA": 16, "FIJI": 7, "URUGUAY": 4, "GEORGIA": 5}
 
 pool_a_matches = matches_in_pool(remaining_matches(), "A")
@@ -88,7 +88,7 @@ def pprint_results_down(pools_results):
 
 func_str = "agg_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches))"
 # eval(func_str.format(i, i.lower()))
-pools_results = {"Pool {}".format(i): sorted(eval("POOL_{}".format(i)).items(), key=lambda x: x[1], reverse=True) for i in "ABCD"}
+pools_results = {"Pool {}".format(i): sorted(eval(func_str.format(i, i.lower())).items(), key=lambda x: x[1], reverse=True) for i in "ABCD"}
 pprint_results_down(pools_results)
 
 
