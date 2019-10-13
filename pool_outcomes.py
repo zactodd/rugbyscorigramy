@@ -38,10 +38,10 @@ def pool_score_outcomes(current_pool, matches, match_outcomes=SCORE_OUTCOMES):
     return outcomes
 
 
-def agg_pool_outcomes(outcomes, transform_totals=None, position_till=-1):
+def agg_pool_outcomes(outcomes, transform_totals=None):
     ranks_dicts = {t: 0 for t in outcomes[0]}
     for o in outcomes:
-        for t, s in sorted(o.items(), key=lambda x: x[1], reverse=True)[0:position_till]:
+        for t, s in sorted(o.items(), key=lambda x: x[1], reverse=True):
             ranks_dicts[t] += s
 
     if transform_totals is not None:
