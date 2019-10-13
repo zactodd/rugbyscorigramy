@@ -1,3 +1,5 @@
+import math
+
 
 def rankings_change(home_rank, away_rank, home_score, away_score, is_neutral_venue=False, is_rwc=False):
     home_adjusted_rank = home_rank if is_neutral_venue else home_rank + 3
@@ -26,3 +28,24 @@ def running_rankings(match_results, current_rankings):
         current_rankings[t1] = r1
         current_rankings[t2] = t2
     return current_rankings
+
+
+def conversion_distance_2d(d, p=5.6):
+    """
+
+    :param d:The from the horizontal distance from the try and the nearest post.
+    :param p: width of the posts
+    :return:
+    """
+    return (d * (d - p / 2)) ** 0.5
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+x = np.arange(0, 50, 0.1)
+y = conversion_distance_2d(x)
+
+plt.plot(x, y)
+plt.show()
+
