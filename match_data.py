@@ -34,13 +34,14 @@ MATCHES = """1,Friday,Sep. 20,A,Japan vs. Russia,19:45,Tokyo Stadium
 32,Wednesday,Oct. 9,D,Wales vs. Fiji,18:45,Oita Stadium
 33,Friday,Oct. 11,D,Australia vs. Georgia,19:15,Shizuoka Stadium Ecopa
 36,Saturday,Oct. 12,A,Ireland vs. Samoa,19:45,Fukuoka Hakatanomori Stadium
-37,Sunday,Oct. 13,B,Namibia vs. Canada,12:15,Kamaishi Recovery Memorial Stadium
 38,Sunday,Oct. 13,C,United States vs. Tonga,14:45,Hanazono Rugby Stadium
 39,Sunday,Oct. 13,D,Wales vs. Uruguay,17:15,Kumamoto Stadium
 40,Sunday,Oct. 13,A,Japan vs. Scotland,19:45,International Stadium Yokohama"""
 
+# Canceled Matches
 # 34,Saturday,Oct. 12,B,New Zealand vs. Italy,13:45,City of Toyota Stadium
 # 35,Saturday,Oct. 12,C,England vs. France,17:15,International Stadium Yokohama
+# 37,Sunday,Oct. 13,B,Namibia vs. Canada,12:15,Kamaishi Recovery Memorial Stadium
 
 DAY_ZERO = "Sep. 20"
 TIME_ZERO = "00:00"
