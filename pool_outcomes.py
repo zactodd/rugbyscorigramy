@@ -16,7 +16,7 @@ SCORE_OUTCOMES = {
 POOL_A = {"JAPAN": 14, "IRELAND": 16, "SAMOA": 5, "RUSSIA": 0, "SCOTLAND": 10}
 POOL_B = {"NEW ZEALAND": 16, "SOUTH AFRICA": 15, "ITALY": 12, "CANADA": 2, "NAMIBIA": 2}
 POOL_C = {"ENGLAND": 17, "FRANCE": 14, "ARGENTINA": 11, "TONGA": 6, "UNITED STATES": 0}
-POOL_D = {"WALES": 14, "AUSTRALIA": 16, "FIJI": 7, "URUGUAY": 4, "GEORGIA": 5}
+POOL_D = {"WALES": 19, "AUSTRALIA": 16, "FIJI": 7, "URUGUAY": 4, "GEORGIA": 5}
 
 pool_a_matches = matches_in_pool(remaining_matches(), "A")
 pool_b_matches = matches_in_pool(remaining_matches(), "B")
