@@ -39,13 +39,3 @@ def conversion_distance_2d(d, p=5.6):
     """
     return (d * (d - p / 2)) ** 0.5
 
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-x = np.arange(0, 50, 0.1)
-y = conversion_distance_2d(x)
-
-plt.plot(x, y)
-plt.show()
-
