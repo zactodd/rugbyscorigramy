@@ -84,12 +84,3 @@ def pprint_results_down(pools_results):
     print("-" * len(headers_rows))
     for i, r in enumerate(["1st", "2nd", "3rd", "4th", "5th"]):
         print(row_format.format(r, *[str(j) for v in pools_results.values() for j in v[i]]))
-
-
-func_str = "agg_pool_outcomes(pool_score_outcomes(POOL_{}, pool_{}_matches))"
-# eval(func_str.format(i, i.lower()))
-pools_results = {"Pool {}".format(i): sorted(eval(func_str.format(i, i.lower())).items(), key=lambda x: x[1], reverse=True) for i in "ABCD"}
-pprint_results_down(pools_results)
-
-
-

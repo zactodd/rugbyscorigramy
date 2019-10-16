@@ -1,7 +1,9 @@
 import datetime
+
 import matplotlib.pyplot as plt
-from scipy.interpolate import spline
 import numpy as np
+from scipy.interpolate import spline
+
 from match_data import BASE_MATCHES_DATA, TIME_CONCAT, TIME_FORMAT, ZERO_DATE, SECONDS_PER_DAY
 
 RANKINGS = """1,(2),NEW ZEALAND,89.40,
@@ -82,4 +84,3 @@ for c in RANKINGS_DICT:
         plt.plot(x, y)
 
 plt.show()
-
