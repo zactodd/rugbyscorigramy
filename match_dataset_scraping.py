@@ -39,7 +39,7 @@ class IDataScrapper:
 
     @staticmethod
     def query_url(url, queries):
-        return "{}?{}".format(url, ";".join("{}={}".format(k, v) for k, v in queries.items()))
+        return "{}?{}".format(url, ";".join(f"{k}={v}" for k, v in queries.items()))
 
 
 class ESPNScrum(IDataScrapper):
@@ -52,8 +52,8 @@ class ESPNScrum(IDataScrapper):
         r = requests.get(self.query_url(self.URL, self._page_number_query()))
         tree = html.fromstring(r.content)
         headers_str = "//div[@id='scrumArticlesBoxContent']/table[@class='engineTable']/*/tr[@class='headlinks']"
-        *front, last = tree.xpath("{}/th/a/text()".format(headers_str))
-        middle = tree.xpath("{}/th/text()".format(headers_str))
+        *front, last = tree.xpath(f"{headers_str}/th/a/text()")
+        middle = tree.xpath(f"{headers_str}/th/text()")
         return tuple((*front, *middle, last))
 
     def collect_data(self):
@@ -82,8 +82,8 @@ class ESPNScrum(IDataScrapper):
         table_rows_str = "//div[@id='scrumArticlesBoxContent']/table[@class='engineTable']/*/tr"
         rows = []
         for i in range(1, len(tree.xpath(table_rows_str))):
-            first, lower_middle = tree.xpath("{}[{}]/td/a/text()".format(table_rows_str, i))
-            *upper_middle, last = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
+            first, lower_middle = tree.xpath(f"{table_rows_str}[{i}]/td/a/text()")
+            *upper_middle, last = tree.xpath(f"{table_rows_str}[{i}]/td/text()")
             row = [str(r) for r in (first, *upper_middle, lower_middle, last)]
             rows.append(row)
         return rows
@@ -115,11 +115,11 @@ class PickAndGo(IDataScrapper):
         rows = []
 
         for i in tqdm.tqdm(range(2, len(tree.xpath(table_rows_str)))):
-            row = tree.xpath("{}[{}]/td/text()".format(table_rows_str, i))
+            row = tree.xpath(f"{table_rows_str}[{i}]/td/text()")
             row = [str(r) for r in row]
             match_str = row[2]
             if len(match_str) == 6:
-                opposition = str(tree.xpath("{}[{}]/td/font/text()".format(table_rows_str, i)))
+                opposition = str(tree.xpath(f"{table_rows_str}[{i}]/td/font/text()"))
                 if len(opposition) == 0:
                     print(match_str)
                 if match_str.find("v") == 1:
