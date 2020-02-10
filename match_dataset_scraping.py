@@ -139,7 +139,7 @@ class PickAndGo(IDataScrapper):
 
 
 # es = ESPNScrum()
-# es.save_data("espn_scrum_data.csv")
+# es.save_data("datasets/espn_scrum_data.csv")
 #
 # pg = PickAndGo()
-# pg.save_data("pick_and_go_data.csv")
+# pg.save_data("datasets/pick_and_go_data.csv")
