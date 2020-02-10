@@ -54,15 +54,9 @@ SECONDS_PER_DAY = 86400
 MATCH_HEADINGS = ["match no", "day", "date", "pool", "teams", "time", "stadium"]
 BASE_MATCHES_DATA = [{h: d for h, d in zip(MATCH_HEADINGS, match.split(","))} for match in MATCHES.split("\n")]
 
-DAY_ZERO = "Sep. 20"
-TIME_ZERO = "00:00"
-
-TIME_CONCAT = "{} {} 2019"
-TIME_FORMAT = "%b. %d %H:%M %Y"
-
 
 def remaining_matches(matches=BASE_MATCHES_DATA, date=datetime.datetime.now()):
-    return [m for m in BASE_MATCHES_DATA if is_match_after(m, date)]
+    return [m for m in matches if is_match_after(m, date)]
 
 
 def is_match_after(match_data, date):

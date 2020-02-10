@@ -1,4 +1,3 @@
-import math
 
 
 def rankings_change(home_rank, away_rank, home_score, away_score, is_neutral_venue=False, is_rwc=False):

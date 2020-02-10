@@ -1,6 +1,5 @@
 from itertools import product, chain
 from match_data import remaining_matches, matches_in_pool
-import math
 
 SCORE_OUTCOMES = {
     # Bonus point win with bonus loss variations
