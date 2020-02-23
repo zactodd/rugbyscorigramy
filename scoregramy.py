@@ -11,7 +11,6 @@ cmap = ListedColormap(('k', 'w', 'g', 'r'))
 bounds = [0, 1, 2, 3, 4]
 norm = BoundaryNorm(bounds, cmap.N)
 
-
 score_matrix = np.zeros((45, 150))
 for i in range(45):
     for j in range(150):
@@ -22,9 +21,8 @@ try_matrix = np.ones((8, 25))
 for i, row in enumerate(base_result_mat):
     date, tour, rnd, team1, team2, s1, s2, tr1, tr2, _, _, location = row
 
-    title_str = ("{} v {} on {} at {} during {}" + ("" if rnd == "" else " " + rnd) + "\nScore: {}-{}, Trys: {}-{}") \
-        .format(team1, team2, date, location, tour, s1, s2, tr1, tr2)
-
+    rnd = "" if rnd == "" else " " + rnd
+    title_str = f"{team1} v {team2} on {date} at {location} during {tour}{rnd}\nScore: {s1}-{s2}, Trys: {tr1}-{tr2}"
     day, date = date.split(",")
 
     fig, axs = plt.subplots(ncols=2, nrows=1, figsize=(10, 3))
@@ -60,14 +58,13 @@ for i, row in enumerate(base_result_mat):
                     Line2D([0], [0], color="black", lw=4)]
 
     plt.legend(custom_lines, ["Match Results", "Previous Match Result", "Cannot be Scored Results"],
-              bbox_to_anchor=(.5, -0.25), fontsize=8, ncol=3)
+               bbox_to_anchor=(.5, -0.25), fontsize=8, ncol=3)
 
-    plt.savefig("images\\image_{}_{}_{}v{}.png".format("0" * (5 - len(str(i))) + str(i), date, team1, team2)
-                .replace(" ", "_"), bbox_inches='tight')
+    plt.savefig(f"images\\image_{i:50d}_{date}_{team1}v{team2}.png", bbox_inches='tight')
     plt.clf()
     plt.close("all")
 
     score_matrix[sp1, sp2] = 2
     try_matrix[trp1, trp2] = 2
 
-    print("{}/{}".format("0" * (4 - len(str(i))) + str(i), len(base_result_mat)), date)
+    print(f"{i:50d}/{date}")
