@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.lines import Line2D
 
 results_str = """Sat, 21 Jan 1995	5N		IRE v ENG	8-20	1:3	0-4	Lansdowne Rd, Dublin	
 Sat, 21 Jan 1995	5N		FRA v WAL	21-9	2:0	4-0	Parc des Princes, Paris	
@@ -1661,7 +1664,7 @@ def win_per(results):
     return results[0] / sum(results)
 
 
-base_result_mat =[]
+base_result_mat = []
 for row in (results_str.split("\n")):
     columns = row.split("\t")
 
@@ -1676,12 +1679,6 @@ for row in (results_str.split("\n")):
         else:
             new_row.append(i)
     base_result_mat.append(new_row)
-
-
-import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.colors import ListedColormap, BoundaryNorm
-from matplotlib.lines import Line2D
 
 teams_dict = {}
 for row in base_result_mat:
@@ -1740,21 +1737,17 @@ for i, row in enumerate(base_result_mat):
         bars.append(ax)
         prev_bars.append(bar_values)
 
-    title_str = ("{} v {} on {} at\n {} during {}" + ("" if rnd == "" else " " + rnd) + "\nScore: {}-{}, Trys: {}-{}") \
-        .format(team1, team2, date, location, tour, s1, s2, tr1, tr2)
+    title_str = f"{team1} v {team2} on {date} at {location} during {tour}{rnd}\nScore: {s1}-{s2}, Trys: {tr1}-{tr2}"
     plt.title(title_str)
     plt.xticks(ind, sorted(tier1))
     plt.ylabel('Win %')
     plt.ylim(0, 1)
-    custom_lines = [Line2D([0], [0], color=c, lw=4) for c in colours ]
+    custom_lines = [Line2D([0], [0], color=c, lw=4) for c in colours]
 
     plt.legend(custom_lines, sorted(tier1), bbox_to_anchor=(1.15, 1), fontsize=8)
 
-    plt.savefig("images\\image_{}_{}_{}v{}.png".format("0" * (5 - len(str(i))) + str(i), date, team1, team2)
-                .replace(" ", "_"), bbox_inches='tight')
+    plt.savefig(f"images\\image_{i:50d}_{date}_{team1}v{team2}.png", bbox_inches='tight')
     plt.clf()
     plt.close("all")
 
-    print("{}/{}".format("0" * (4 - len(str(i))) + str(i), len(base_result_mat)), date)
-
-
+    print(f"{i:50d}/{date}")
