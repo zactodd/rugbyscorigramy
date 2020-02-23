@@ -60,7 +60,8 @@ for i, row in enumerate(base_result_mat):
     plt.legend(custom_lines, ["Match Results", "Previous Match Result", "Cannot be Scored Results"],
                bbox_to_anchor=(.5, -0.25), fontsize=8, ncol=3)
 
-    plt.savefig(f"images\\image_{i:50d}_{date}_{team1}v{team2}.png", bbox_inches='tight')
+    print(f"images/image_{i:50d}_{date}_{team1}v{team2}.png")
+    plt.savefig(f"images/image_{i:50d}_{date}_{team1}v{team2}.png", bbox_inches='tight')
     plt.clf()
     plt.close("all")
 

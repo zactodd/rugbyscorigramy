@@ -1746,8 +1746,8 @@ for i, row in enumerate(base_result_mat):
 
     plt.legend(custom_lines, sorted(tier1), bbox_to_anchor=(1.15, 1), fontsize=8)
 
-    plt.savefig(f"images\\image_{i:50d}_{date}_{team1}v{team2}.png", bbox_inches='tight')
+    plt.savefig(f"images/image_{i:05d}_{date}_{team1}v{team2}.png", bbox_inches='tight')
     plt.clf()
     plt.close("all")
 
-    print(f"{i:50d}/{date}")
+    print(f"{i:05d}/{date}")
