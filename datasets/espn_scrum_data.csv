@@ -246,6 +246,7 @@ Slovenia,won,77,5,-,-,-,-,-,v Bosnia & Her,Ljubliana,19 May 2007
 Lithuania,won,77,5,13,6,0,0,0,v Serbia & Mon,Pancevo,24 Apr 2010
 Japan,won,75,3,11,10,0,0,0,v Russia,Tokyo,6 Nov 2010
 Guatemala,won,72,0,11,7,1,0,0,v Panama,Guatemala City,4 Dec 2016
+Georgia,won,78,6,12,8,0,0,0,v Belgium,Kutaisi,22 Feb 2020
 South Africa,won,74,3,11,8,1,0,0,v Italy,Port Elizabeth,12 Jun 1999
 Singapore,won,71,0,-,-,-,-,-,v India,Singapore,21 Jun 2003
 Kenya,won,80,9,-,-,-,-,-,v Botswana,Gaberone,2 Aug 2003
@@ -2297,6 +2298,7 @@ Philippines,won,38,12,4,3,4,0,0,v Singapore,Manila,26 Jun 2018
 United States of America,won,31,5,5,3,0,0,0,v Romania,Bucharest,17 Nov 2018
 Romania,won,43,17,5,2,4,0,0,v Belgium,Brussels,17 Mar 2019
 Georgia,won,33,7,5,4,0,0,0,v Uruguay,Kumagaya,29 Sep 2019
+Belgium,won,38,12,5,5,1,0,0,v Russia,Woluwe-Saint-Lambert,8 Feb 2020
 England,won,25,0,7,2,0,0,0,v Wales,Blackheath,4 Jan 1896
 Wales,won,25,0,7,2,0,0,0,v England,Cardiff,14 Jan 1905
 New Zealand,won,30,5,8,3,0,0,0,v Australia,Wellington,6 Sep 1913
@@ -3715,6 +3717,7 @@ Latvia,won,30,13,4,2,2,0,0,v Norway,Horten,25 May 2019
 Philippines,won,39,22,5,4,2,0,0,v Sri Lanka,Taipei,29 May 2019
 Fiji,won,27,10,4,2,1,0,0,v NZ Maori,Suva,13 Jul 2019
 Ukraine,won,27,10,4,2,1,0,0,v Lithuania,Kharkov,26 Oct 2019
+Scotland,won,17,0,3,1,0,0,0,v Italy,Rome,22 Feb 2020
 Wales,won,21,5,5,3,0,0,0,v England,Swansea,10 Jan 1903
 Scotland,won,19,3,5,2,0,0,0,v Ireland,Lansdowne Road,27 Feb 1904
 Great Britain,won,16,0,4,2,0,0,0,v Australia,Sydney,30 Jul 1904
@@ -4574,6 +4577,9 @@ Luxembourg,won,23,10,2,2,2,1,0,v Moldova,Luxembourg City,13 Apr 2019
 Uruguay,won,28,15,3,2,3,0,0,v Argentina XV,Montevideo,15 Jun 2019
 Japan,won,34,21,5,3,1,0,0,v Fiji,Kamaishi,27 Jul 2019
 Luxembourg,won,13,0,1,1,2,0,0,v Sweden,Malmo,2 Nov 2019
+Georgia,won,23,10,3,1,2,0,0,v Spain,Madrid,9 Feb 2020
+France,won,35,22,5,2,2,0,0,v Italy,Stade de France,9 Feb 2020
+Switzerland,won,33,20,3,3,4,0,0,v Germany,Heidelburg,29 Feb 2020
 Scotland,won,15,3,3,3,0,0,0,v Ireland,Inverleith,23 Feb 1907
 England,won,12,0,2,1,0,1,0,v Wales,Cardiff,18 Jan 1913
 New Zealand,won,25,13,5,3,0,1,0,v Australia,Dunedin,13 Sep 1913
@@ -4830,6 +4836,7 @@ Finland,won,34,22,5,3,1,0,0,v Norway,Helsinki,1 Jun 2019
 Wales,won,29,17,4,3,1,0,0,v Fiji,Oita,9 Oct 2019
 Tonga,won,31,19,4,4,1,0,0,v USA,Osaka,13 Oct 2019
 England,won,19,7,1,1,4,0,0,v New Zealand,Yokohama,26 Oct 2019
+England,won,24,12,3,3,1,0,0,v Ireland,Twickenham,23 Feb 2020
 Scotland,won,11,0,3,1,0,0,0,v England,Glasgow,14 Mar 1896
 Wales,won,11,0,3,1,0,0,0,v England,Newport,9 Jan 1897
 Scotland,won,21,10,3,0,0,2,1,v Wales,Inverleith,4 Mar 1899
@@ -5112,6 +5119,7 @@ Wales,won,26,15,2,2,4,0,0,v Italy,Rome,9 Feb 2019
 France,won,25,14,3,2,1,1,0,v Italy,Rome,16 Mar 2019
 Kenya,won,16,5,2,0,2,0,0,v Uganda,Kampala,13 Jul 2019
 Ghana,won,36,25,6,3,0,0,0,v Botswana,Elmina,23 Nov 2019
+Portugal,won,22,11,3,2,1,0,0,v Romania,Caldas da Rainha,8 Feb 2020
 Australia,won,13,3,3,2,0,0,0,v Britain,Sydney,24 Jun 1899
 Wales,won,13,3,2,2,1,0,0,v England,Gloucester,6 Jan 1900
 Scotland,won,18,8,4,3,0,0,0,v Wales,Inverleith,9 Feb 1901
@@ -5383,6 +5391,7 @@ Ivory Coast,won,22,12,4,1,0,0,0,v Ghana,Elmina,28 Jul 2019
 Tonga,won,33,23,5,4,0,0,0,v Canada,Lautoka,9 Aug 2019
 Fiji,won,29,19,5,2,0,0,0,v Tonga,Auckland,31 Aug 2019
 New Zealand,won,23,13,2,2,3,0,0,v South Africa,Yokohama,21 Sep 2019
+Ireland,won,24,14,4,2,0,0,0,v Wales,Lansdowne Road,8 Feb 2020
 England,won,9,0,5,2,0,0,0,v Ireland,Lansdowne Road,7 Feb 1891
 Ireland,won,9,0,3,1,0,0,0,v Wales,Lansdowne Road,5 Mar 1892
 Wales,won,9,0,3,0,1,0,0,v Scotland,Edinburgh,4 Feb 1893
@@ -6430,6 +6439,7 @@ Japan,won,19,12,1,1,4,0,0,v Ireland,Shizuoka,28 Sep 2019
 Japan,won,28,21,4,4,0,0,0,v Scotland,Yokohama,13 Oct 2019
 Ireland,won,19,12,1,1,4,0,0,v Scotland,Lansdowne Road,1 Feb 2020
 France,won,24,17,3,3,1,0,0,v England,Stade de France,2 Feb 2020
+England,won,13,6,1,1,2,0,0,v Scotland,Murrayfield,8 Feb 2020
 Scotland,won,8,2,3,1,0,0,0,v Wales,Cardiff,1 Feb 1890
 England,won,6,0,2,1,0,0,0,v Scotland,Edinburgh,1 Mar 1890
 Scotland,won,9,3,2,2,0,1,0,v England,Richmond,7 Mar 1891
@@ -7641,6 +7651,7 @@ Moldova,won,17,13,2,2,1,0,0,v Ukraine,Drochia,20 Apr 2019
 New Zealand,won,20,16,2,2,2,0,0,v Argentina,Buenos Aires,20 Jul 2019
 Wales,won,29,25,2,2,3,2,0,v Australia,Tokyo,29 Sep 2019
 Sweden,won,26,22,3,1,3,0,0,v Latvia,Jurmala,26 Oct 2019
+France,won,27,23,3,3,2,0,0,v Wales,Millennium Stadium,22 Feb 2020
 England,won,3,0,3,0,0,0,0,v Ireland,Blackheath,15 Mar 1890
 Great Britain,won,3,0,0,0,0,0,1,v South Africa,Kimberley,29 Aug 1891
 Ireland,won,3,0,0,0,1,0,0,v Wales,Belfast,10 Mar 1894
@@ -8932,6 +8943,8 @@ Romania,won,22,21,3,2,1,0,0,v Brazil,Jundiai,15 Jun 2019
 Ivory Coast,won,15,14,-,-,-,-,-,v Nigeria,Elmina,31 Jul 2019
 Zimbabwe,won,30,29,4,2,2,0,0,v Kenya,Bulawayo,3 Aug 2019
 Wales,won,20,19,2,2,2,0,0,v France,Oita,20 Oct 2019
+Russia,won,19,18,1,1,4,0,0,v Portugal,Kalingrad,22 Feb 2020
+Netherlands,won,7,6,1,1,0,0,0,v Poland,Amsterdam,29 Feb 2020
 England,lost,0G,1G,1,0,0,0,0,v Scotland,Edinburgh,27 Mar 1871
 Scotland,won,1G,0G,2,1,0,0,0,v England,Edinburgh,27 Mar 1871
 England,won,2G,1G,3,1,0,1,0,v Scotland,The Oval,5 Feb 1872
@@ -9648,20 +9661,24 @@ Australia,-,0,0,-,-,-,-,-,v South Africa,Perth,29 Aug 2020
 South Africa,-,0,0,-,-,-,-,-,v Australia,Perth,29 Aug 2020
 Argentina,-,0,0,-,-,-,-,-,v New Zealand,Hamilton,29 Aug 2020
 New Zealand,-,0,0,-,-,-,-,-,v Argentina,Hamilton,29 Aug 2020
-Argentina,-,0,0,-,-,-,-,-,v Australia,-,5 Sep 2020
-Australia,-,0,0,-,-,-,-,-,v Argentina,-,5 Sep 2020
+Argentina,-,0,0,-,-,-,-,-,v Australia,Newcastle,5 Sep 2020
+Australia,-,0,0,-,-,-,-,-,v Argentina,Newcastle,5 Sep 2020
 New Zealand,-,0,0,-,-,-,-,-,v South Africa,Auckland,5 Sep 2020
 South Africa,-,0,0,-,-,-,-,-,v New Zealand,Auckland,5 Sep 2020
 Australia,-,0,0,-,-,-,-,-,v South Africa,Pretoria,19 Sep 2020
 South Africa,-,0,0,-,-,-,-,-,v Australia,Pretoria,19 Sep 2020
-Argentina,-,0,0,-,-,-,-,-,v New Zealand,-,19 Sep 2020
-New Zealand,-,0,0,-,-,-,-,-,v Argentina,-,19 Sep 2020
+Argentina,-,0,0,-,-,-,-,-,v New Zealand,Mendoza,19 Sep 2020
+New Zealand,-,0,0,-,-,-,-,-,v Argentina,Mendoza,19 Sep 2020
 New Zealand,-,0,0,-,-,-,-,-,v South Africa,Nelspruit,26 Sep 2020
 South Africa,-,0,0,-,-,-,-,-,v New Zealand,Nelspruit,26 Sep 2020
-Argentina,-,0,0,-,-,-,-,-,v Australia,-,26 Sep 2020
-Australia,-,0,0,-,-,-,-,-,v Argentina,-,26 Sep 2020
+Argentina,-,0,0,-,-,-,-,-,v Australia,Buenos Aires,26 Sep 2020
+Australia,-,0,0,-,-,-,-,-,v Argentina,Buenos Aires,26 Sep 2020
+Fiji,-,0,0,-,-,-,-,-,v Wales,Millennium Stadium,7 Nov 2020
+Wales,-,0,0,-,-,-,-,-,v Fiji,Millennium Stadium,7 Nov 2020
 Japan,-,0,0,-,-,-,-,-,v Scotland,Murrayfield,14 Nov 2020
 Scotland,-,0,0,-,-,-,-,-,v Japan,Murrayfield,14 Nov 2020
+New Zealand,-,0,0,-,-,-,-,-,v Wales,Millennium Stadium,14 Nov 2020
+Wales,-,0,0,-,-,-,-,-,v New Zealand,Millennium Stadium,14 Nov 2020
 England,lost,0,1,0,0,0,0,0,v Wales,Dewsbury,15 Feb 1890
 England,lost,11,12,4,1,0,0,0,v Wales,Cardiff,7 Jan 1893
 Wales,lost,4,5,0,0,0,0,1,v Scotland,Edinburgh,26 Jan 1895
@@ -10046,6 +10063,8 @@ Brazil,lost,21,22,2,1,3,0,0,v Romania,Jundiai,15 Jun 2019
 Nigeria,lost,14,15,-,-,-,-,-,v Cote d'Iv,Elmina,31 Jul 2019
 Kenya,lost,29,30,5,2,0,0,0,v Zimbabwe,Bulawayo,3 Aug 2019
 France,lost,19,20,3,2,0,0,0,v Wales,Oita,20 Oct 2019
+Portugal,lost,18,19,2,1,2,0,0,v Russia,Kalingrad,22 Feb 2020
+Poland,lost,6,7,0,0,2,0,0,v Netherlands,Amsterdam,29 Feb 2020
 Ireland,lost,4,6,1,0,0,1,0,v Wales,Llanelli,7 Mar 1891
 Ireland,lost,0,2,0,0,0,0,0,v Scotland,Edinburgh,20 Feb 1892
 Ireland,lost,0,2,0,0,0,0,0,v Wales,Llanelli,11 Mar 1893
@@ -11325,6 +11344,7 @@ Ukraine,lost,13,17,2,0,1,0,0,v Moldova,Drochia,20 Apr 2019
 Argentina,lost,16,20,1,1,3,0,0,v New Zealand,Buenos Aires,20 Jul 2019
 Australia,lost,25,29,3,2,2,0,0,v Wales,Tokyo,29 Sep 2019
 Latvia,lost,22,26,3,2,1,0,0,v Sweden,Jurmala,26 Oct 2019
+Wales,lost,23,27,2,2,3,0,0,v France,Millennium Stadium,22 Feb 2020
 Ireland,lost,0,5,0,0,0,0,0,v Scotland,Edinburgh,22 Feb 1890
 Wales,lost,2,7,1,0,0,0,0,v Scotland,Swansea,6 Feb 1892
 Scotland,lost,0,5,0,0,0,0,0,v England,Edinburgh,5 Mar 1892
@@ -12583,6 +12603,7 @@ Ireland,lost,12,19,2,1,0,0,0,v Japan,Shizuoka,28 Sep 2019
 Scotland,lost,21,28,3,3,0,0,0,v Japan,Yokohama,13 Oct 2019
 Scotland,lost,12,19,0,0,4,0,0,v Ireland,Lansdowne Road,1 Feb 2020
 England,lost,17,24,2,2,1,0,0,v France,Stade de France,2 Feb 2020
+Scotland,lost,6,13,0,0,2,0,0,v England,Murrayfield,8 Feb 2020
 England,lost,0,8,0,0,0,0,0,v Scotland,Leeds,4 Mar 1893
 Wales,lost,6,14,2,0,0,0,0,v England,Swansea,5 Jan 1895
 South Africa,lost,0,8,0,0,0,0,0,v Britain,Port Elizabeth,30 Jul 1896
@@ -13583,6 +13604,7 @@ Ghana,lost,12,22,2,1,0,0,0,v Cote d'Iv,Elmina,28 Jul 2019
 Canada,lost,23,33,4,0,1,0,0,v Tonga,Lautoka,9 Aug 2019
 Tonga,lost,19,29,3,2,0,0,0,v Fiji,Auckland,31 Aug 2019
 South Africa,lost,13,23,1,1,1,1,0,v New Zealand,Yokohama,21 Sep 2019
+Wales,lost,14,24,2,2,0,0,0,v Ireland,Lansdowne Road,8 Feb 2020
 England,lost,0,11,0,0,0,0,0,v Scotland,Glasgow,14 Mar 1896
 England,lost,0,11,0,0,0,0,0,v Wales,Newport,9 Jan 1897
 Wales,lost,10,21,2,2,0,0,0,v Scotland,Inverleith,4 Mar 1899
@@ -13870,6 +13892,7 @@ Italy,lost,15,26,2,1,1,0,0,v Wales,Rome,9 Feb 2019
 Italy,lost,14,25,1,0,3,0,0,v France,Rome,16 Mar 2019
 Uganda,lost,5,16,1,0,0,0,0,v Kenya,Kampala,13 Jul 2019
 Botswana,lost,25,36,3,2,2,0,0,v Ghana,Elmina,23 Nov 2019
+Romania,lost,11,22,1,0,2,0,0,v Portugal,Caldas da Rainha,8 Feb 2020
 Ireland,lost,3,15,0,0,1,0,0,v Scotland,Inverleith,23 Feb 1907
 Wales,lost,0,12,0,0,0,0,0,v England,Cardiff,18 Jan 1913
 Australia,lost,13,25,3,2,0,0,0,v New Zealand,Dunedin,13 Sep 1913
@@ -14130,6 +14153,7 @@ Norway,lost,22,34,3,2,1,0,0,v Finland,Helsinki,1 Jun 2019
 Fiji,lost,17,29,3,0,0,0,0,v Wales,Oita,9 Oct 2019
 United States of America,lost,19,31,3,2,0,0,0,v Tonga,Osaka,13 Oct 2019
 New Zealand,lost,7,19,1,1,0,0,0,v England,Yokohama,26 Oct 2019
+Ireland,lost,12,24,2,1,0,0,0,v England,Twickenham,23 Feb 2020
 Australia,lost,0,13,0,0,0,0,0,v Britain,Sydney,12 Aug 1899
 England,lost,0,13,0,0,0,0,0,v Wales,Cardiff,5 Jan 1901
 England,lost,3,16,1,0,0,0,0,v Wales,Richmond,13 Jan 1906
@@ -14368,6 +14392,9 @@ Netherlands,lost,5,18,1,0,0,0,0,v Portugal,Amsterdam,9 Mar 2019
 Moldova,lost,10,23,2,0,0,0,0,v Luxembourg,Luxembourg City,13 Apr 2019
 Fiji,lost,21,34,3,3,0,0,0,v Japan,Kamaishi,27 Jul 2019
 Sweden,lost,0,13,0,0,0,0,0,v Luxembourg,Malmo,2 Nov 2019
+Spain,lost,10,23,2,0,0,0,0,v Georgia,Madrid,9 Feb 2020
+Italy,lost,22,35,3,2,1,0,0,v France,Stade de France,9 Feb 2020
+Germany,lost,20,33,2,2,2,0,0,v Switzerland,Heidelburg,29 Feb 2020
 Ireland,lost,0,14,0,0,0,0,0,v Scotland,Belfast,21 Feb 1891
 Australia,lost,3,17,1,0,0,0,0,v Britain,Brisbane,23 Jul 1904
 England,lost,3,17,1,0,0,0,0,v Ireland,Cork,11 Feb 1905
@@ -15221,6 +15248,7 @@ Scotland,lost,10,27,1,1,1,0,0,v France,Stade de France,23 Feb 2019
 Norway,lost,13,30,1,1,2,0,0,v Latvia,Horten,25 May 2019
 Sri Lanka,lost,22,39,3,2,1,0,0,v Philippines,Taipei,29 May 2019
 Lithuania,lost,10,27,1,1,1,0,0,v Ukraine,Kharkov,26 Oct 2019
+Italy,lost,0,17,0,0,0,0,0,v Scotland,Rome,22 Feb 2020
 Ireland,lost,0,18,0,0,0,0,0,v Wales,Cardiff,14 Mar 1903
 Scotland,lost,3,21,1,0,0,0,0,v Wales,Swansea,6 Feb 1904
 France,lost,3,21,1,0,0,0,0,v Scotland,Parc des Princes,1 Jan 1913
@@ -16695,6 +16723,7 @@ Singapore,lost,12,38,2,1,0,0,0,v Philippines,Manila,26 Jun 2018
 Romania,lost,5,31,1,0,0,0,0,v USA,Bucharest,17 Nov 2018
 Belgium,lost,17,43,2,2,1,0,0,v Romania,Brussels,17 Mar 2019
 Uruguay,lost,7,33,1,1,0,0,0,v Georgia,Kumagaya,29 Sep 2019
+Russia,lost,12,38,2,1,0,0,0,v Belgium,Woluwe-Saint-Lambert,8 Feb 2020
 France,lost,8,35,2,1,0,0,0,v England,Parc des Princes,22 Mar 1906
 Anglo-Welsh,lost,5,32,1,1,0,0,0,v New Zealand,Dunedin,6 Jun 1908
 France,lost,0,27,0,0,0,0,0,v Scotland,Inverleith,22 Jan 1910
@@ -18906,6 +18935,7 @@ Bosnia and Herzegovina,lost,5,77,-,-,-,-,-,v Slovenia,Ljubliana,19 May 2007
 Serbia and Montenegro,lost,5,77,1,0,0,0,0,v Lithuania,Pancevo,24 Apr 2010
 Russia,lost,3,75,0,0,1,0,0,v Japan,Tokyo,6 Nov 2010
 Panama,lost,0,72,0,0,0,0,0,v ,Guatemala City,4 Dec 2016
+Belgium,lost,6,78,0,0,2,0,0,v Georgia,Kutaisi,22 Feb 2020
 East Germany,lost,0,73,0,0,0,0,0,v Poland,Pilawa,-
 Spain,lost,3,76,-,-,-,-,-,v Romania,Bucharest,16 Apr 1978
 Malaysia,lost,3,76,-,-,-,-,-,v Hong Kong,Hong Kong,22 Sep 1992
@@ -19143,3 +19173,21 @@ Italy,lost,0,101,0,0,0,0,0,v South Africa,Durban,19 Jun 1999
 Brunei,lost,0,101,0,0,0,0,0,v Philippines,Guam,2 Jul 2008
 Japan,lost,4,106,1,0,0,0,0,v NZ XV,Tokyo,1 Nov 1987
 Malaysia,lost,0,102,0,0,0,0,0,v Korea,Hong Kong,12 Nov 1988
+Chinese Taipei,lost,12,114,-,-,-,-,-,v Hong Kong,Taipei,9 Nov 1996
+Tonga,lost,0,102,0,0,0,0,0,v New Zealand,North Shore City,16 Jun 2000
+Paraguay,lost,0,102,0,0,0,0,0,v Chile,Montevideo,3 May 2003
+Cook Islands,lost,6,108,0,0,2,0,0,v Fiji,Suva,28 Jun 2014
+United Arab Emirates,lost,3,106,0,0,1,0,0,v Japan,Fukuoka,5 May 2012
+Brazil,lost,3,109,0,0,1,0,0,v Argentina,Santiago,9 Oct 1979
+Malaysia,lost,5,112,-,-,-,-,-,v Korea,Taipei,5 Nov 1996
+Sri Lanka,lost,0,108,0,0,0,0,0,v Hong Kong,Taipei,9 Nov 1980
+Sri Lanka,lost,0,108,0,0,0,0,0,v Japan XV,Taipei,11 Nov 1980
+Serbia and Montenegro,lost,0,108,0,0,0,0,0,v Germany,Heidelburg,12 Nov 2005
+Arabian Gulf,lost,6,114,0,0,2,0,0,v Japan,Osaka,3 May 2008
+Papua New Guinea,lost,7,115,1,1,0,0,0,v Samoa,Apia,11 Jul 2009
+Philippines,lost,0,108,0,0,0,0,0,v Hong Kong,Hong Kong,26 Apr 2014
+Bolivia,lost,0,109,0,0,0,0,0,v Paraguay,Asuncion,20 Sep 2019
+New Caledonia,lost,3,113,-,-,-,-,-,v Fiji XV,Port Moresby,20 Aug 1969
+Netherlands,lost,0,110,0,0,0,0,0,v England,Huddersfield,14 Nov 1998
+Brazil,lost,3,114,0,0,1,0,0,v Argentina,Sao Paulo,2 Oct 1993
+United Arab Emirates,lost,0,111,0,0,0,0,0,v Japan,Dubai,13 May 2011

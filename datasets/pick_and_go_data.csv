@@ -3475,7 +3475,10 @@ Date,Tourn,Rnd,Match,Score,Tries,Pnts,Venue,Neut.
 "Wed, 09 Oct 2019",WC,P['SCO'], v RUS,61-0,9:0,5-0,Shizuoka Stadium ECOPA,Y
 "Wed, 09 Oct 2019",WC,P['WAL'], v FIJ,29-17,4:3,5-0,Oita Stadium,Y
 "Fri, 11 Oct 2019",WC,P['AUS'], v GEO,27-8,4:1,5-0,Shizuoka Stadium ECOPA,Y
+"Sat, 12 Oct 2019",WC,P[],NZL v ITA,0-0,0:0,2-2,"Toyota Stadium, Aichi",Y
+"Sat, 12 Oct 2019",WC,P[],FRA v ENG,0-0,0:0,2-2,Yokohama International Stadium,Y
 "Sat, 12 Oct 2019",WC,P['IRE'], v SAM,47-5,7:1,5-0,Fukuoka Hakatanomori Stadium,Y
+"Sun, 13 Oct 2019",WC,P[],NAM v CAN,0-0,0:0,2-2,Kamaishi Recovery Stadium,Y
 "Sun, 13 Oct 2019",WC,P['USA'],TON v ,19-31,3:4,0-5,"Hanazono Stadium, Osaka",Y
 "Sun, 13 Oct 2019",WC,P['WAL'], v URU,35-13,5:1,5-0,Kumamoto Stadium,Y
 "Sun, 13 Oct 2019",WC,P['JAP'], v SCO,28-21,4:3,5-1,Yokohama International Stadium, 
@@ -3486,3 +3489,12 @@ Date,Tourn,Rnd,Match,Score,Tries,Pnts,Venue,Neut.
 "Sat, 26 Oct 2019",WC,Semi ,NZL v ,7-19,1:1,0-4,Yokohama International Stadium,Y
 "Sun, 27 Oct 2019",WC,Semi , v WAL,19-16,1:1,4-1,Yokohama International Stadium,Y
 "Fri, 01 Nov 2019",WC,3&4 , v WAL,40-17,6:2,5-0,"Ajinimoto Stadium, Tokyo",Y
+"Sat, 02 Nov 2019",WC,F['SAF'], v ENG,32-12,2:0,4-0,Yokohama International Stadium,Y
+"Sat, 01 Feb 2020",6N,1 , v ITA,42-0,5:0,5-0,"Millennium Stadium, Cardiff", 
+"Sat, 01 Feb 2020",6N,1 , v SCO,19-12,1:0,4-1,"Lansdowne Rd, Dublin", 
+"Sun, 02 Feb 2020",6N,1 , v ENG,24-17,3:2,4-1,"Stade de France, Paris", 
+"Sat, 08 Feb 2020",6N,2 , v WAL,24-14,4:2,5-0,"Lansdowne Rd, Dublin", 
+"Sat, 08 Feb 2020","6N,CA",2 ,SCO v ,6-13,0:1,1-4,"Murrayfield, Edinburgh", 
+"Sun, 09 Feb 2020",6N,2 , v ITA,35-22,5:3,5-0,"Stade de France, Paris", 
+"Sat, 22 Feb 2020",6N,3 ,ITA v ,0-17,0:3,0-4,"Olympic Stadium, Rome", 
+"Sat, 22 Feb 2020",6N,3 ,WAL v ,23-27,2:3,1-4,"Millennium Stadium, Cardiff", 
