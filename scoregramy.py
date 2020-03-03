@@ -53,9 +53,11 @@ for i, row in enumerate(base_result_mat):
         a.set_xlabel("Winning Team", fontsize=8)
         a.set_ylabel("Losing Team", fontsize=8)
 
-    custom_lines = [Line2D([0], [0], color="red", lw=4),
-                    Line2D([0], [0], color="green", lw=4),
-                    Line2D([0], [0], color="black", lw=4)]
+    custom_lines = [
+        Line2D([0], [0], color="red", lw=4),
+        Line2D([0], [0], color="green", lw=4),
+        Line2D([0], [0], color="black", lw=4)
+    ]
 
     plt.legend(custom_lines, ["Match Results", "Previous Match Result", "Cannot be Scored Results"],
                bbox_to_anchor=(.5, -0.25), fontsize=8, ncol=3)

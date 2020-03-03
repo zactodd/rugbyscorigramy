@@ -1,5 +1,5 @@
 from itertools import product, chain
-from tournaments.rwc2019.rwc2019 import remaining_matches, matches_in_pool
+from tournaments.rwc2019.rwc2019_meta import remaining_matches, matches_in_pool
 
 SCORE_OUTCOMES = {
     # Bonus point win with bonus loss variations
