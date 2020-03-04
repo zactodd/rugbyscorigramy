@@ -1,5 +1,3 @@
-
-
 def rankings_change(home_rank, away_rank, home_score, away_score, is_neutral_venue=False, is_rwc=False):
     home_adjusted_rank = home_rank if is_neutral_venue else home_rank + 3
     exchange = points_exchange(home_adjusted_rank - away_rank, home_score - away_score, is_rwc)
