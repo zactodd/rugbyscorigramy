@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import spline
 
-from match_data import BASE_MATCHES_DATA, TIME_CONCAT, TIME_FORMAT, ZERO_DATE, SECONDS_PER_DAY
+from tournaments.rwc2019.rwc2019_meta import BASE_MATCHES_DATA, TIME_CONCAT, TIME_FORMAT, ZERO_DATE, SECONDS_PER_DAY
 
 RANKINGS = """1,(2),NEW ZEALAND,89.40,
 2,(4),IRELAND,88.86,
