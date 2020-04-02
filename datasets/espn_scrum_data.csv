@@ -3362,6 +3362,7 @@ Japan,won,38,19,4,3,4,0,0,v Samoa,Aichi,5 Oct 2019
 Australia,won,27,8,4,2,1,0,0,v Georgia,Shizuoka,11 Oct 2019
 Hong Kong,won,36,17,-,-,-,-,-,v Belgium,Neder-over-Heembeek,16 Nov 2019
 Spain,won,31,12,5,3,0,0,0,v Russia,Sochi,1 Feb 2020
+Netherlands,won,36,17,6,3,0,0,0,v Lithuania,Amsterdam,7 Mar 2020
 Wales,won,18,0,6,0,0,0,0,v Ireland,Cardiff,14 Mar 1903
 Wales,won,21,3,4,3,1,0,0,v Scotland,Swansea,6 Feb 1904
 Scotland,won,21,3,5,3,0,0,0,v France,Parc des Princes,1 Jan 1913
@@ -4118,6 +4119,7 @@ Thailand,won,35,20,5,5,0,0,0,v Kazakhstan,Hua Hin,15 May 2019
 Kenya,won,31,16,4,1,3,0,0,v Zambia,Nairobi,24 Aug 2019
 Dominican Republic,won,15,0,-,-,-,-,-,v B Virgin Is,Juan Pablo Duarte,14 Sep 2019
 Serbia and Montenegro,won,30,15,4,2,1,1,0,v Turkey,Belgrade,19 Oct 2019
+Georgia,won,39,24,7,1,0,0,0,v Portugal,Paris,7 Mar 2020
 Scotland,won,14,0,5,3,0,1,0,v Ireland,Belfast,21 Feb 1891
 Great Britain,won,17,3,3,0,0,1,1,v Australia,Brisbane,23 Jul 1904
 Ireland,won,17,3,5,1,0,0,0,v England,Cork,11 Feb 1905
@@ -5120,6 +5122,7 @@ France,won,25,14,3,2,1,1,0,v Italy,Rome,16 Mar 2019
 Kenya,won,16,5,2,0,2,0,0,v Uganda,Kampala,13 Jul 2019
 Ghana,won,36,25,6,3,0,0,0,v Botswana,Elmina,23 Nov 2019
 Portugal,won,22,11,3,2,1,0,0,v Romania,Caldas da Rainha,8 Feb 2020
+Scotland,won,28,17,3,2,3,0,0,v France,Murrayfield,8 Mar 2020
 Australia,won,13,3,3,2,0,0,0,v Britain,Sydney,24 Jun 1899
 Wales,won,13,3,2,2,1,0,0,v England,Gloucester,6 Jan 1900
 Scotland,won,18,8,4,3,0,0,0,v Wales,Inverleith,9 Feb 1901
@@ -6440,6 +6443,8 @@ Japan,won,28,21,4,4,0,0,0,v Scotland,Yokohama,13 Oct 2019
 Ireland,won,19,12,1,1,4,0,0,v Scotland,Lansdowne Road,1 Feb 2020
 France,won,24,17,3,3,1,0,0,v England,Stade de France,2 Feb 2020
 England,won,13,6,1,1,2,0,0,v Scotland,Murrayfield,8 Feb 2020
+Russia,won,32,25,4,3,2,0,0,v Romania,Krasnodar,7 Mar 2020
+Spain,won,30,23,4,2,2,0,0,v Belgium,Woluwe-Saint-Lambert,7 Mar 2020
 Scotland,won,8,2,3,1,0,0,0,v Wales,Cardiff,1 Feb 1890
 England,won,6,0,2,1,0,0,0,v Scotland,Edinburgh,1 Mar 1890
 Scotland,won,9,3,2,2,0,1,0,v England,Richmond,7 Mar 1891
@@ -8183,6 +8188,7 @@ Scotland,won,17,14,2,2,1,0,0,v France,Murrayfield,24 Aug 2019
 Uruguay,won,30,27,3,3,3,0,0,v Fiji,Kamaishi,25 Sep 2019
 South Africa,won,19,16,1,1,4,0,0,v Wales,Yokohama,27 Oct 2019
 Poland,won,23,20,2,2,3,0,0,v Switzerland,Yverdon,23 Nov 2019
+England,won,33,30,3,3,4,0,0,v Wales,Twickenham,7 Mar 2020
 Wales,won,6,4,1,1,0,1,0,v Ireland,Llanelli,7 Mar 1891
 Scotland,won,2,0,1,0,0,0,0,v Ireland,Edinburgh,20 Feb 1892
 Wales,won,2,0,1,0,0,0,0,v Ireland,Llanelli,11 Mar 1893
@@ -10991,6 +10997,7 @@ France,lost,14,17,2,2,0,0,0,v Scotland,Murrayfield,24 Aug 2019
 Fiji,lost,27,30,5,1,0,0,0,v Uruguay,Kamaishi,25 Sep 2019
 Wales,lost,16,19,1,1,3,0,0,v South Africa,Yokohama,27 Oct 2019
 Switzerland,lost,20,23,2,2,2,0,0,v Poland,Yverdon,23 Nov 2019
+Wales,lost,30,33,3,3,3,0,0,v England,Twickenham,7 Mar 2020
 Wales,lost,3,7,1,1,0,0,0,v England,Newport,3 Jan 1891
 South Africa,lost,0,4,0,0,0,0,0,v Britain,Port Elizabeth,30 Jul 1891
 South Africa,lost,0,4,0,0,0,0,0,v Britain,Cape Town,5 Sep 1891
@@ -12604,6 +12611,8 @@ Scotland,lost,21,28,3,3,0,0,0,v Japan,Yokohama,13 Oct 2019
 Scotland,lost,12,19,0,0,4,0,0,v Ireland,Lansdowne Road,1 Feb 2020
 England,lost,17,24,2,2,1,0,0,v France,Stade de France,2 Feb 2020
 Scotland,lost,6,13,0,0,2,0,0,v England,Murrayfield,8 Feb 2020
+Romania,lost,25,32,3,2,2,0,0,v Russia,Krasnodar,7 Mar 2020
+Belgium,lost,23,30,2,2,2,1,0,v Spain,Woluwe-Saint-Lambert,7 Mar 2020
 England,lost,0,8,0,0,0,0,0,v Scotland,Leeds,4 Mar 1893
 Wales,lost,6,14,2,0,0,0,0,v England,Swansea,5 Jan 1895
 South Africa,lost,0,8,0,0,0,0,0,v Britain,Port Elizabeth,30 Jul 1896
@@ -13893,6 +13902,7 @@ Italy,lost,14,25,1,0,3,0,0,v France,Rome,16 Mar 2019
 Uganda,lost,5,16,1,0,0,0,0,v Kenya,Kampala,13 Jul 2019
 Botswana,lost,25,36,3,2,2,0,0,v Ghana,Elmina,23 Nov 2019
 Romania,lost,11,22,1,0,2,0,0,v Portugal,Caldas da Rainha,8 Feb 2020
+France,lost,17,28,2,2,1,0,0,v Scotland,Murrayfield,8 Mar 2020
 Ireland,lost,3,15,0,0,1,0,0,v Scotland,Inverleith,23 Feb 1907
 Wales,lost,0,12,0,0,0,0,0,v England,Cardiff,18 Jan 1913
 Australia,lost,13,25,3,2,0,0,0,v New Zealand,Dunedin,13 Sep 1913
@@ -14853,6 +14863,7 @@ Kazakhstan,lost,20,35,4,0,0,0,0,v Thailand,Hua Hin,15 May 2019
 Zambia,lost,16,31,1,1,3,0,0,v Kenya,Nairobi,24 Aug 2019
 British Virgin Islands,lost,0,15,0,0,0,0,0,v Dominican,Juan Pablo Duarte,14 Sep 2019
 Turkey,lost,15,30,3,0,0,0,0,v Serbia & Mon,Belgrade,19 Oct 2019
+Portugal,lost,24,39,3,3,1,0,0,v Georgia,Paris,7 Mar 2020
 England,lost,5,21,1,1,0,0,0,v Wales,Swansea,10 Jan 1903
 Ireland,lost,3,19,1,0,0,0,0,v Scotland,Lansdowne Road,27 Feb 1904
 Australia,lost,0,16,0,0,0,0,0,v Britain,Sydney,30 Jul 1904
@@ -15649,6 +15660,7 @@ Samoa,lost,19,38,1,1,4,0,0,v Japan,Aichi,5 Oct 2019
 Georgia,lost,8,27,1,0,1,0,0,v Australia,Shizuoka,11 Oct 2019
 Belgium,lost,17,36,-,-,-,-,-,v Hong Kong,Neder-over-Heembeek,16 Nov 2019
 Russia,lost,12,31,2,1,0,0,0,v Spain,Sochi,1 Feb 2020
+Lithuania,lost,17,36,3,1,0,0,0,v Netherlands,Amsterdam,7 Mar 2020
 Australia,lost,6,26,0,0,1,0,1,v New Zealand,Sydney,20 Jul 1907
 France,lost,5,25,1,1,0,0,0,v Ireland,Cork,25 Mar 1911
 France,lost,0,20,0,0,0,0,0,v England,Twickenham,25 Jan 1913
@@ -19179,15 +19191,3 @@ Paraguay,lost,0,102,0,0,0,0,0,v Chile,Montevideo,3 May 2003
 Cook Islands,lost,6,108,0,0,2,0,0,v Fiji,Suva,28 Jun 2014
 United Arab Emirates,lost,3,106,0,0,1,0,0,v Japan,Fukuoka,5 May 2012
 Brazil,lost,3,109,0,0,1,0,0,v Argentina,Santiago,9 Oct 1979
-Malaysia,lost,5,112,-,-,-,-,-,v Korea,Taipei,5 Nov 1996
-Sri Lanka,lost,0,108,0,0,0,0,0,v Hong Kong,Taipei,9 Nov 1980
-Sri Lanka,lost,0,108,0,0,0,0,0,v Japan XV,Taipei,11 Nov 1980
-Serbia and Montenegro,lost,0,108,0,0,0,0,0,v Germany,Heidelburg,12 Nov 2005
-Arabian Gulf,lost,6,114,0,0,2,0,0,v Japan,Osaka,3 May 2008
-Papua New Guinea,lost,7,115,1,1,0,0,0,v Samoa,Apia,11 Jul 2009
-Philippines,lost,0,108,0,0,0,0,0,v Hong Kong,Hong Kong,26 Apr 2014
-Bolivia,lost,0,109,0,0,0,0,0,v Paraguay,Asuncion,20 Sep 2019
-New Caledonia,lost,3,113,-,-,-,-,-,v Fiji XV,Port Moresby,20 Aug 1969
-Netherlands,lost,0,110,0,0,0,0,0,v England,Huddersfield,14 Nov 1998
-Brazil,lost,3,114,0,0,1,0,0,v Argentina,Sao Paulo,2 Oct 1993
-United Arab Emirates,lost,0,111,0,0,0,0,0,v Japan,Dubai,13 May 2011
