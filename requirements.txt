@@ -3,3 +3,4 @@ numpy
 lxml
 tqdm
 requests
+scipy
