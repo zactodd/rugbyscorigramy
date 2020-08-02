@@ -201,7 +201,7 @@ Argentina,won,78,3,11,7,3,0,0,v Chile,Santiago,30 Sep 1995
 Uruguay,won,81,6,12,9,1,0,0,v Paraguay,Mendoza,3 May 2002
 Tonga,won,75,0,12,6,1,0,0,v Korea,Seoul,15 Mar 2003
 Mauritius,won,75,0,-,-,-,-,-,v Burundi,Dar es Salaam,13 Aug 2005
-Chile,won,78,3,9,9,5,0,0,v Brazil,Vina del Mar,25 Apr 2009
+Chile,won,78,3,10,8,4,0,0,v Brazil,Vina del Mar,25 Apr 2009
 Papua New Guinea,won,78,3,-,-,-,-,-,v Vanuatu,Port Moresby,29 Nov 2011
 Hong Kong,won,85,10,14,6,1,0,0,v UAE,Dubai,27 Apr 2012
 Argentina,won,85,10,13,10,0,0,0,v Chile,Montevideo,1 May 2013
@@ -251,7 +251,7 @@ South Africa,won,74,3,11,8,1,0,0,v Italy,Port Elizabeth,12 Jun 1999
 Singapore,won,71,0,-,-,-,-,-,v India,Singapore,21 Jun 2003
 Kenya,won,80,9,-,-,-,-,-,v Botswana,Gaberone,2 Aug 2003
 Argentina,won,79,8,13,7,0,0,0,v Chile,San Juan,15 Dec 2007
-Paraguay,won,71,0,-,-,-,-,-,v Peru,Asuncion,21 Jun 2008
+Paraguay,won,71,0,13,3,0,0,0,v Peru,Asuncion,21 Jun 2008
 Japan,won,80,9,12,10,0,0,0,v Korea,Osaka,16 May 2009
 Romania,won,71,0,11,8,0,0,0,v Ukraine,Bucharest,31 Mar 2012
 Brazil,won,76,5,-,-,-,-,-,v Mexico,Sao Paulo,20 Apr 2013
@@ -367,7 +367,7 @@ Denmark,won,69,6,-,-,-,-,-,v Lithuania,Copenhagen,7 May 1994
 Russia,won,73,10,10,7,3,0,0,v Netherlands,Krasnodar,17 Feb 2002
 New Zealand,won,70,7,11,6,1,0,0,v Italy,Melbourne,11 Oct 2003
 Tanzania,won,71,8,-,-,-,-,-,v Rwanda,Arusha,19 Aug 2006
-Brazil,won,66,3,-,-,-,-,-,v UAE,Dubai,13 Dec 2011
+Brazil,won,66,3,10,5,1,1,0,v UAE,Dubai,13 Dec 2011
 Laos,won,70,7,10,10,0,0,0,v Brunei,Phnom Penh,28 Jun 2012
 Togo,won,63,0,10,5,1,0,0,v Benin,Niamey,10 Jun 2013
 Denmark,won,75,12,13,5,0,0,0,v Estonia,Tallin,29 Apr 2017
@@ -448,7 +448,7 @@ Korea,won,70,11,-,-,-,-,-,v Sri Lanka,Ulsan,5 Oct 2002
 Argentina,won,69,10,10,8,1,0,0,v Uruguay,Santiago,28 Apr 2004
 Senegal,won,59,0,-,-,-,-,-,v Mauritania,Dakar,7 Jun 2004
 Wales,won,66,7,10,8,0,0,0,v Romania,Millennium Stadium,12 Nov 2004
-Brazil,won,59,0,-,-,-,-,-,v Peru,Asuncion,26 Jun 2008
+Brazil,won,59,0,9,7,0,0,0,v Peru,Asuncion,26 Jun 2008
 Georgia,won,62,3,10,6,0,0,0,v Ukraine,Tbilisi,5 Feb 2011
 Hong Kong,won,62,3,10,6,0,0,0,v UAE,Hong Kong,21 May 2011
 Japan,won,64,5,10,7,0,0,0,v Korea,Tokyo,4 May 2013
@@ -598,8 +598,7 @@ Lithuania,won,60,7,8,7,1,1,0,v Israel,Vilnius,23 Oct 2004
 India,won,56,3,-,-,-,-,-,v Pakistan,Hong Kong,30 Oct 2004
 Korea,won,56,3,8,5,2,0,0,v Hong Kong,Hong Kong,22 May 2005
 Lithuania,won,65,12,10,6,1,0,0,v Bulgaria,Vilnius,29 Oct 2005
-Brazil,won,61,8,-,-,-,-,-,v Venezuela,Asuncion,23 Jun 2008
-Paraguay,won,60,7,-,-,-,-,-,v Colombia,Asuncion,26 Jun 2008
+Paraguay,won,60,7,10,5,0,0,0,v Colombia,Asuncion,26 Jun 2008
 Japan,won,59,6,9,7,0,0,0,v Hong Kong,Hong Kong,2 May 2009
 Russia,won,53,0,7,6,2,0,0,v Germany,Hanover,2 May 2009
 Thailand,won,56,3,8,5,2,0,0,v China,Delhi,5 Jun 2010
@@ -767,6 +766,7 @@ South Africa,won,58,10,7,7,3,0,0,v England,Bloemfontein,26 May 2007
 Kazakhstan,won,69,21,-,-,-,-,-,v Thailand,Colombo,3 Nov 2007
 Lithuania,won,48,0,8,4,0,0,0,v Austria,Vilnius,3 May 2008
 Belgium,won,51,3,8,4,0,1,0,v Netherlands,Brussels,3 May 2008
+Brazil,won,56,8,9,4,0,1,0,v Venezuela,Asuncion,23 Jun 2008
 Sweden,won,54,6,7,5,3,0,0,v Moldova,Stockholm,27 Oct 2012
 Niger,won,48,0,8,4,0,0,0,v Benin,Niamey,3 Jun 2013
 New Zealand,won,54,6,8,7,0,0,0,v Japan,Tokyo,2 Nov 2013
@@ -822,7 +822,7 @@ Hong Kong,won,64,17,10,7,0,0,0,v C Taipai,Hong Kong,6 Jan 2008
 Czechia,won,47,0,-,-,-,-,-,v Croatia,Prague,18 Oct 2008
 Cyprus,won,55,8,9,5,0,0,0,v Bulgaria,Paphos,12 Mar 2011
 Cyprus,won,52,5,7,7,1,0,0,v Finland,Helsinki,9 Jun 2012
-Hong Kong,won,53,6,8,5,1,0,0,v UAE,Dubai,11 Dec 2012
+Hong Kong,won,53,6,8,4,1,0,0,v UAE,Dubai,11 Dec 2012
 Mexico,won,56,9,-,-,-,-,-,v Bermuda,Huixquilucan,26 Apr 2014
 Estonia,won,59,12,9,7,0,0,0,v ,Tallin,4 Oct 2014
 Bosnia and Herzegovina,won,59,12,7,6,4,0,0,v Bulgaria,Zenica,4 Oct 2014
@@ -1077,7 +1077,7 @@ Slovenia,won,41,0,-,-,-,-,-,v Hungary,Ljubliana,6 Nov 2004
 Tonga,won,57,16,8,4,3,0,0,v Japan,Fukuoka,4 Jun 2006
 Malaysia,won,61,20,-,-,-,-,-,v India,Bangkok,5 Jun 2006
 Arabian Gulf,won,52,11,-,-,-,-,-,v Sri Lanka,Sharjah,27 Apr 2007
-Paraguay,won,44,3,-,-,-,-,-,v Venezuela,Asuncion,19 Jun 2008
+Paraguay,won,44,3,6,4,2,0,0,v Venezuela,Asuncion,19 Jun 2008
 Armenia,won,41,0,5,2,2,2,0,v Serbia & Mon,Smederevo,13 Sep 2008
 Scotland,won,41,0,6,4,1,0,0,v Canada,Aberdeen,22 Nov 2008
 Lithuania,won,50,9,7,6,1,0,0,v Serbia & Mon,Vilnius,2 May 2009
@@ -1259,7 +1259,7 @@ New Zealand,won,41,3,5,5,2,0,0,v Wales,Millennium Stadium,5 Nov 2005
 New Zealand,won,45,7,5,4,4,0,0,v Ireland,Lansdowne Road,12 Nov 2005
 Portugal,won,52,14,8,6,0,0,0,v Ukraine,Lisbon,13 May 2006
 Monaco,won,41,3,-,-,-,-,-,v Azerbaijan,Paphos,3 Nov 2007
-Venezuela,won,41,3,-,-,-,-,-,v Peru,Asuncion,29 Jun 2008
+Venezuela,won,41,3,6,4,1,0,0,v Peru,Asuncion,29 Jun 2008
 Portugal,won,44,6,5,5,3,0,0,v Germany,Lisbon,21 Feb 2009
 Japan,won,46,8,6,5,2,0,0,v Canada,Miyagi,15 Nov 2009
 France,won,43,5,7,4,0,0,0,v Samoa,Stade de France,21 Nov 2009
@@ -1268,7 +1268,7 @@ New Zealand,won,66,28,9,9,1,0,0,v Ireland,New Plymouth,12 Jun 2010
 Canada,won,60,22,8,7,2,0,0,v Spain,Madrid,13 Nov 2010
 Venezuela,won,57,19,8,7,1,0,0,v Colombia,Lima,21 Aug 2011
 Venezuela,won,50,12,8,5,0,0,0,v Costa Rica,Lima,24 Aug 2011
-Kenya,won,55,17,-,-,-,-,-,v UAE,Dubai,16 Dec 2011
+Kenya,won,55,17,8,6,1,0,0,v UAE,Dubai,16 Dec 2011
 Sri Lanka,won,45,7,6,3,3,0,0,v Thailand,Colombo,3 Apr 2013
 Barbados,won,41,3,6,4,1,0,0,v ,Bridgetown,7 Apr 2013
 Denmark,won,38,0,5,5,1,0,0,v Serbia & Mon,Odense,13 Apr 2013
@@ -1440,6 +1440,7 @@ France,won,51,16,7,5,2,0,0,v Scotland,Murrayfield,21 Feb 1998
 Croatia,won,35,0,-,-,-,-,-,v Austria,Zapresic,22 May 1999
 Georgia,won,41,6,7,3,0,0,0,v Netherlands,Tbilisi,19 Mar 2000
 Tahiti,won,41,6,6,4,1,0,0,v Niue Island,Papetee,16 Jun 2001
+Brazil,won,47,12,7,3,2,0,0,v Colombia,Bogota,3 Nov 2001
 Canada,won,51,16,5,4,6,0,0,v Uruguay,Edmonton,10 Aug 2002
 Korea,won,50,15,-,-,-,-,-,v C Taipai,Ulsan,9 Oct 2002
 France,won,38,3,4,3,4,0,0,v Scotland,Stade de France,23 Feb 2003
@@ -1528,7 +1529,7 @@ Cyprus,won,37,3,-,-,-,-,-,v Azerbaijan,Baku,29 Nov 2008
 Thailand,won,51,17,-,-,-,-,-,v Sri Lanka,Dubai,11 Apr 2009
 Colombia,won,34,0,-,-,-,-,-,v Venezuela,San Jose,5 Dec 2009
 Germany,won,34,0,3,2,5,0,0,v Hong Kong,Heidelburg,11 Dec 2010
-Hong Kong,won,37,3,-,-,-,-,-,v Brazil,Dubai,16 Dec 2011
+Hong Kong,won,37,3,7,1,0,0,0,v Brazil,Dubai,16 Dec 2011
 Cyprus,won,54,20,7,5,3,0,0,v Austria,Vienna,17 Nov 2012
 South Africa,won,44,10,5,5,3,0,0,v Italy,Durban,8 Jun 2013
 Wales,won,40,6,4,4,4,0,0,v Argentina,Millennium Stadium,16 Nov 2013
@@ -1650,7 +1651,6 @@ Czechia,won,35,3,-,-,-,-,-,v Ukraine,Prague,14 Oct 2000
 Sweden,won,42,10,6,3,2,0,0,v Austria,Vienna,21 Oct 2000
 Czechia,won,42,10,-,-,-,-,-,v Denmark,Prague,19 May 2001
 Japan,won,39,7,5,4,2,0,0,v Canada,Tokyo,8 Jul 2001
-Brazil,won,44,12,-,-,-,-,-,v Colombia,Bogota,3 Nov 2001
 New Zealand,won,40,8,5,3,3,0,0,v Ireland,Auckland,22 Jun 2002
 Ireland,won,35,3,4,3,3,0,0,v Russia,Krasnoyarsk,21 Sep 2002
 France,won,35,3,4,3,3,0,0,v Canada,Stade de France,23 Nov 2002
@@ -2043,7 +2043,7 @@ Peru,won,31,3,-,-,-,-,-,v Costa Rica,Caracas,20 Oct 2006
 Poland,won,33,5,5,4,0,0,0,v Andorra,Andorra la Vella,29 Sep 2007
 Netherlands,won,40,12,-,-,-,-,-,v Switzerland,Amsterdam,3 Nov 2007
 Georgia,won,31,3,5,3,0,0,0,v Portugal,Tbilisi,2 Feb 2008
-Brazil,won,34,6,-,-,-,-,-,v Colombia,Asuncion,19 Jun 2008
+Brazil,won,34,6,4,4,2,0,0,v Colombia,Asuncion,19 Jun 2008
 Malaysia,won,43,15,-,-,-,-,-,v China,Kuala Lumpur,6 Jun 2009
 Lithuania,won,40,12,7,1,1,0,0,v Andorra,Siauliai,10 Oct 2009
 Georgia,won,36,8,5,4,0,1,0,v Russia,Trabzon,20 Mar 2010
@@ -2158,7 +2158,7 @@ Romania,won,39,12,5,4,2,0,0,v Uruguay,Bucharest,27 Nov 2010
 Guam,won,37,10,6,2,1,0,0,v Pakistan,Jakarta,22 Jun 2011
 Peru,won,40,13,6,5,0,0,0,v Costa Rica,Lima,21 Aug 2011
 France,won,46,19,4,4,5,1,0,v Canada,Napier,18 Sep 2011
-Hong Kong,won,44,17,-,-,-,-,-,v Kenya,Dubai,13 Dec 2011
+Hong Kong,won,44,17,6,4,2,0,0,v Kenya,Dubai,13 Dec 2011
 France,won,33,6,3,3,3,1,0,v Australia,Stade de France,10 Nov 2012
 Ukraine,won,42,15,3,3,6,1,0,v Czech Rep,Dnepropetrovsk,17 Nov 2012
 Costa Rica,won,37,10,-,-,-,-,-,v ,Guatemala City,8 Dec 2012
@@ -2241,7 +2241,7 @@ Ireland,won,31,5,3,2,4,0,0,v Wales,Lansdowne Road,26 Feb 2006
 Spain,won,36,10,5,4,1,0,0,v Germany,Madrid,27 May 2006
 Argentina,won,26,0,2,2,4,0,0,v Uruguay,Buenos Aires,8 Jul 2006
 Benin,won,35,9,-,-,-,-,-,v Ghana,Lome,29 Jul 2006
-United States of America,won,33,7,4,2,3,0,0,v Uruguay,Stanford,7 Oct 2006
+United States of America,won,33,7,4,2,3,0,0,v Uruguay,Palo Alto,7 Oct 2006
 Brazil,won,36,10,-,-,-,-,-,v Peru,Caracas,14 Oct 2006
 Cook Islands,won,41,15,-,-,-,-,-,v Niue Island,Pukekohe,21 Oct 2006
 Italy,won,31,5,3,2,4,0,0,v Portugal,Parc des Princes,19 Sep 2007
@@ -2953,7 +2953,7 @@ Ghana,won,27,6,-,-,-,-,-,v Togo,Accra,29 Jun 2008
 Wales,won,34,13,5,3,1,0,0,v Canada,Millennium Stadium,14 Nov 2008
 Cyprus,won,24,3,-,-,-,-,-,v Monaco,Episkopi,6 Dec 2008
 Denmark,won,27,6,4,2,1,0,0,v Austria,Linz,25 Apr 2009
-Chile,won,34,13,-,-,-,-,-,v Paraguay,Montevideo,29 Apr 2009
+Chile,won,34,13,5,3,1,0,0,v Paraguay,Montevideo,29 Apr 2009
 New Zealand,won,27,6,3,3,2,0,0,v Italy,Christchurch,27 Jun 2009
 Madagascar,won,36,15,-,-,-,-,-,v Zambia,Gaberone,22 Jul 2009
 Japan,won,27,6,4,2,1,0,0,v Canada,Tokyo,21 Nov 2009
@@ -3198,7 +3198,7 @@ British and Irish Lions,won,28,9,5,1,1,1,0,v South Africa,Pretoria,22 Jun 1974
 Netherlands,won,26,7,-,-,-,-,-,v Morocco,Hilversum,-
 Ireland,won,25,6,3,2,1,2,0,v France,Lansdowne Road,1 Mar 1975
 France,won,33,14,3,3,5,0,0,v USA,Chicago,12 Jun 1976
-Chile,won,22,3,-,-,-,-,-,v Paraguay,Tucuman,24 Oct 1977
+Chile,won,22,3,2,1,4,0,0,v Paraguay,Tucuman,24 Oct 1977
 Netherlands,won,30,11,-,-,-,-,-,v Serbia & Mon,Split,2 Dec 1978
 Bermuda,won,23,4,-,-,-,-,-,v Guyana,Georgetown,-
 Argentina,won,34,15,6,2,2,0,0,v Chile,Santiago,6 Oct 1979
@@ -3290,7 +3290,6 @@ Georgia,won,22,3,3,2,1,0,0,v Czech Rep,Prague,29 Mar 2008
 Papua New Guinea,won,46,27,-,-,-,-,-,v Niue Island,Paliati,22 Apr 2008
 Sweden,won,22,3,3,2,1,0,0,v Serbia & Mon,Stockholm,26 Apr 2008
 Korea,won,40,21,-,-,-,-,-,v Kazakhstan,Seoul,18 May 2008
-Venezuela,won,34,15,-,-,-,-,-,v Colombia,Asuncion,21 Jun 2008
 Kenya,won,39,20,-,-,-,-,-,v Uganda,Nairobi,16 Aug 2008
 New Zealand,won,19,0,3,2,0,0,0,v South Africa,Cape Town,16 Aug 2008
 Netherlands,won,29,10,4,3,1,0,0,v Latvia,Jelgava,8 Nov 2008
@@ -3360,7 +3359,7 @@ Papua New Guinea,won,29,10,-,-,-,-,-,v Niue Island,Port Moresby,27 Aug 2019
 Australia,won,34,15,6,2,0,0,0,v Samoa,Parramatta,7 Sep 2019
 Japan,won,38,19,4,3,4,0,0,v Samoa,Aichi,5 Oct 2019
 Australia,won,27,8,4,2,1,0,0,v Georgia,Shizuoka,11 Oct 2019
-Hong Kong,won,36,17,-,-,-,-,-,v Belgium,Neder-over-Heembeek,16 Nov 2019
+Hong Kong,won,36,17,5,4,1,0,0,v Belgium,Neder-over-Heembeek,16 Nov 2019
 Spain,won,31,12,5,3,0,0,0,v Russia,Sochi,1 Feb 2020
 Netherlands,won,36,17,6,3,0,0,0,v Lithuania,Amsterdam,7 Mar 2020
 Wales,won,18,0,6,0,0,0,0,v Ireland,Cardiff,14 Mar 1903
@@ -3656,6 +3655,7 @@ Uganda,won,20,3,-,-,-,-,-,v Kenya,Kampala,24 May 2008
 Fiji,won,34,17,5,3,1,0,0,v Samoa,Lautoka,7 Jun 2008
 New Zealand,won,37,20,4,4,3,0,0,v England,Auckland,14 Jun 2008
 Uganda,won,27,10,-,-,-,-,-,v Botswana,Gaberone,14 Jun 2008
+Venezuela,won,32,15,5,2,1,0,0,v Colombia,Asuncion,21 Jun 2008
 Ireland,won,27,10,4,2,1,0,0,v USA,Santa Clara,31 May 2009
 Kyrgyzstan,won,38,21,6,4,0,0,0,v Mongolia,Tashkent,10 Jun 2009
 Mauritius,won,25,8,-,-,-,-,-,v Zambia,Gaberone,25 Jul 2009
@@ -3769,7 +3769,7 @@ Scotland,won,34,18,5,4,0,2,0,v Wales,Cardiff,20 Mar 1982
 Japan,won,31,15,4,3,3,0,0,v NZ Unis,Tokyo,26 Sep 1982
 Spain,won,19,3,-,-,-,-,-,v Sweden,Arstad,8 May 1983
 Australia,won,29,13,5,3,1,0,0,v Argentina,Sydney,7 Aug 1983
-Romania,won,19,3,-,-,-,-,-,v ,Bucharest,20 Nov 1983
+Romania,won,19,3,1,0,4,1,0,v ,Bucharest,20 Nov 1983
 Belgium,won,19,3,-,-,-,-,-,v Sweden,Brussels,16 Oct 1984
 Australia,won,19,3,3,2,1,0,0,v England,Twickenham,3 Nov 1984
 Czechia,won,22,6,4,0,2,0,0,v Morocco,Rabat,21 Apr 1985
@@ -4063,7 +4063,7 @@ Chinese Taipei,won,32,17,-,-,-,-,-,v Hong Kong A,Hong Kong,18 May 2008
 Australia,won,34,19,4,4,1,1,0,v New Zealand,Sydney,26 Jul 2008
 Japan,won,32,17,4,3,2,0,0,v USA,Tokyo,22 Nov 2008
 Israel,won,25,10,-,-,-,-,-,v Greece,Kfissa,22 Nov 2008
-Brazil,won,36,21,-,-,-,-,-,v Paraguay,Montevideo,2 May 2009
+Brazil,won,36,21,6,3,0,0,0,v Paraguay,Montevideo,2 May 2009
 Philippines,won,15,0,-,-,-,-,-,v Iran,Manila,1 Jul 2009
 Kenya,won,22,7,-,-,-,-,-,v Senegal,Safi,8 Jul 2009
 Australia,won,21,6,2,1,2,1,0,v South Africa,Brisbane,5 Sep 2009
@@ -4624,7 +4624,7 @@ Chinese Taipei,won,16,4,-,-,-,-,-,v Thailand,Seoul,14 Nov 1976
 Thailand,won,12,0,-,-,-,-,-,v Malaysia,Seoul,20 Nov 1976
 Serbia and Montenegro,won,18,6,3,0,0,0,0,v Switzerland,Chavannes-pres-Renens,11 Dec 1976
 New Zealand,won,19,7,2,1,2,1,0,v Lions,Dunedin,30 Jul 1977
-Paraguay,won,25,13,-,-,-,-,-,v Brazil,Concepcion,27 Oct 1977
+Paraguay,won,25,13,2,1,5,0,0,v Brazil,Concepcion,27 Oct 1977
 New Zealand,won,15,3,1,1,2,1,0,v France,Parc des Princes,19 Nov 1977
 Japan,won,16,4,2,1,2,0,0,v Korea,Kuala Lumpur,25 Nov 1978
 Netherlands,won,12,0,-,-,-,-,-,v Tunisia,Hilversum,-
@@ -4981,7 +4981,7 @@ Fiji,won,28,17,1,1,7,0,0,v Samoa,Tokyo,8 Jul 2001
 New Zealand,won,26,15,2,2,4,0,0,v South Africa,Auckland,25 Aug 2001
 Ukraine,won,21,10,-,-,-,-,-,v Belgium,Kiev,13 Oct 2001
 New Zealand,won,40,29,6,5,0,0,0,v Ireland,Lansdowne Road,17 Nov 2001
-Brazil,won,14,3,-,-,-,-,-,v Venezuela,Sao Paulo,17 Nov 2001
+Brazil,won,14,3,1,0,3,0,0,v Venezuela,Sao Paulo,17 Nov 2001
 Trinidad and Tobago,won,23,12,3,1,2,0,0,v Bermuda,Grand Caymans,24 Nov 2001
 Samoa,won,27,16,4,2,1,0,0,v Tonga,Nuku A'lofa,15 Jun 2002
 South Africa,won,19,8,2,0,3,0,0,v Wales,Cape Town,15 Jun 2002
@@ -5631,7 +5631,7 @@ Nigeria,won,20,11,-,-,-,-,-,v Togo,Lagos,18 Jul 2007
 South Africa,won,15,6,0,0,5,0,0,v England,Stade de France,20 Oct 2007
 Cyprus,won,19,10,-,-,-,-,-,v Monaco,Nicosia,31 Oct 2007
 Ghana,won,17,8,-,-,-,-,-,v Chad,Accra,23 Jun 2008
-Brazil,won,15,6,-,-,-,-,-,v Paraguay,Asuncion,29 Jun 2008
+Brazil,won,15,6,2,1,1,0,0,v Paraguay,Asuncion,29 Jun 2008
 Reunion,won,25,16,-,-,-,-,-,v Tanzania,Curepipe,1 Jul 2008
 Israel,won,23,14,-,-,-,-,-,v Cyprus,Netanya,6 Sep 2008
 Slovenia,won,18,9,-,-,-,-,-,v Austria,Vienna,8 Nov 2008
@@ -6590,7 +6590,7 @@ Ivory Coast,won,15,9,-,-,-,-,-,v Senegal,Dakar,-
 Soviet Union,won,22,16,-,-,-,-,-,v ,Hanover,17 Apr 1977
 Poland,won,12,6,1,1,2,0,0,v Italy,Warsaw,23 Oct 1977
 Italy,won,10,4,2,1,0,0,0,v Czech Rep,Prague,29 Oct 1977
-Chile,won,33,27,-,-,-,-,-,v Brazil,Tucuman,29 Oct 1977
+Chile,won,33,27,5,5,1,0,0,v Brazil,Tucuman,29 Oct 1977
 England,won,15,9,2,2,1,0,0,v Ireland,Twickenham,18 Mar 1978
 Spain,won,28,22,-,-,-,-,-,v Poland,Warsaw,21 May 1978
 Belgium,won,12,6,-,-,-,-,-,v Sweden,Brussels,7 Nov 1978
@@ -7182,7 +7182,7 @@ Georgia,won,11,6,1,0,1,1,0,v Portugal,Lisbon,23 Feb 2008
 Croatia,won,15,10,2,1,1,0,0,v Andorra,Split,19 Apr 2008
 Ukraine,won,14,9,2,2,0,0,0,v Moldova,Chisinau,3 May 2008
 Bosnia and Herzegovina,won,22,17,-,-,-,-,-,v Slovenia,Zenica,10 May 2008
-Colombia,won,25,20,-,-,-,-,-,v Peru,Asuncion,23 Jun 2008
+Colombia,won,25,20,3,2,2,0,0,v Peru,Asuncion,23 Jun 2008
 Samoa,won,20,15,2,2,2,0,0,v Tonga,Nuku A'lofa,28 Jun 2008
 Mauritius,won,22,17,-,-,-,-,-,v Tanzania,Curepipe,5 Jul 2008
 New Zealand,won,19,14,2,0,3,0,0,v Australia,Hong Kong,1 Nov 2008
@@ -7556,7 +7556,7 @@ Italy,won,16,12,1,1,3,0,0,v Scotland,Rome,27 Feb 2010
 Ireland,won,20,16,3,1,1,0,0,v England,Twickenham,27 Feb 2010
 Spain,won,21,17,3,3,0,0,0,v Germany,Heidelburg,20 Mar 2010
 Latvia,won,31,27,-,-,-,-,-,v Sweden,Riga,17 Apr 2010
-Hong Kong,won,19,15,-,-,-,-,-,v Kazakhstan,Hong Kong,8 May 2010
+Hong Kong,won,19,15,2,0,0,0,0,v Kazakhstan,Hong Kong,8 May 2010
 Namibia,won,21,17,2,1,3,0,0,v Romania,Bucharest,11 Jun 2010
 Scotland,won,13,9,1,1,2,0,0,v Argentina,Mar del Plata,19 Jun 2010
 Sweden,won,26,22,3,1,3,0,0,v Lithuania,Trelleborg,6 Nov 2010
@@ -8753,7 +8753,7 @@ Netherlands,won,31,30,5,3,0,0,0,v Korea,Amsterdam,14 Mar 1999
 Georgia,won,28,27,4,1,2,0,0,v Tonga,Tbilisi,28 Mar 1999
 Wales,won,32,31,2,2,6,0,0,v England,Wembley,11 Apr 1999
 Israel,won,11,10,-,-,-,-,-,v Bulgaria,Sofia,24 Apr 1999
-United States of America,won,18,17,2,1,2,0,0,v Canada,Toronto,19 Jun 1999
+United States of America,won,18,17,2,1,2,0,0,v Canada,Markham,19 Jun 1999
 South Africa,won,10,9,1,1,1,0,0,v Australia,Cape Town,14 Aug 1999
 Tonga,won,26,25,4,3,0,0,0,v Japan,Tokyo,3 Jun 2000
 Hong Kong,won,21,20,-,-,-,-,-,v Arabian Gulf,Hong Kong,18 Jun 2000
@@ -8787,9 +8787,9 @@ Fiji,won,19,18,1,1,4,0,0,v USA,Brisbane,15 Oct 2003
 Ireland,won,16,15,1,1,3,0,0,v Argentina,Adelaide,26 Oct 2003
 Australia,won,17,16,1,0,3,1,0,v Ireland,Melbourne,1 Nov 2003
 Luxembourg,won,9,8,-,-,-,-,-,v Lithuania,Luxembourg City,8 Nov 2003
-Portugal,won,19,18,2,0,3,0,0,v Russia,Coimbra,27 Mar 2004
+Portugal,won,19,18,1,1,4,0,0,v Russia,Coimbra,27 Mar 2004
 Arabian Gulf,won,14,13,-,-,-,-,-,v Kazakhstan,Doha,9 Apr 2004
-Netherlands,won,14,13,-,-,-,-,-,v Germany,Amsterdam,10 Apr 2004
+Netherlands,won,14,13,1,0,3,0,0,v Germany,Amsterdam,10 Apr 2004
 Luxembourg,won,19,18,-,-,-,-,-,v Austria,Vienna,8 May 2004
 Fiji,won,27,26,3,3,2,0,0,v Tonga,Nuku A'lofa,5 Jun 2004
 Romania,won,25,24,3,2,2,0,0,v Italy,Bucharest,26 Jun 2004
@@ -9651,10 +9651,6 @@ New Zealand,draw,16,16,1,1,3,0,0,v South Africa,Wellington,27 Jul 2019
 South Africa,draw,16,16,1,1,3,0,0,v New Zealand,Wellington,27 Jul 2019
 Israel,draw,28,28,-,-,-,-,-,v Slovenia,Ljubliana,19 Oct 2019
 Slovenia,draw,28,28,-,-,-,-,-,v Israel,Ljubliana,19 Oct 2019
-Australia,-,0,0,-,-,-,-,-,v Ireland,Brisbane,4 Jul 2020
-Ireland,-,0,0,-,-,-,-,-,v Australia,Brisbane,4 Jul 2020
-Australia,-,0,0,-,-,-,-,-,v Ireland,Sydney,11 Jul 2020
-Ireland,-,0,0,-,-,-,-,-,v Australia,Sydney,11 Jul 2020
 Australia,-,0,0,-,-,-,-,-,v New Zealand,Melbourne,8 Aug 2020
 New Zealand,-,0,0,-,-,-,-,-,v Australia,Melbourne,8 Aug 2020
 Argentina,-,0,0,-,-,-,-,-,v South Africa,Johannesburg,8 Aug 2020
@@ -9877,7 +9873,7 @@ Korea,lost,30,31,4,2,2,0,0,v Netherlands,Amsterdam,14 Mar 1999
 Tonga,lost,27,28,5,1,0,0,0,v Georgia,Tbilisi,28 Mar 1999
 England,lost,31,32,3,2,4,0,0,v Wales,Wembley,11 Apr 1999
 Bulgaria,lost,10,11,-,-,-,-,-,v Israel,Sofia,24 Apr 1999
-Canada,lost,17,18,2,2,1,0,0,v USA,Toronto,19 Jun 1999
+Canada,lost,17,18,2,2,1,0,0,v USA,Markham,19 Jun 1999
 Australia,lost,9,10,0,0,3,0,0,v South Africa,Cape Town,14 Aug 1999
 Japan,lost,25,26,3,2,2,0,0,v Tonga,Tokyo,3 Jun 2000
 Arabian Gulf,lost,20,21,-,-,-,-,-,v Hong Kong,Hong Kong,18 Jun 2000
@@ -9913,7 +9909,7 @@ Ireland,lost,16,17,1,1,2,1,0,v Australia,Melbourne,1 Nov 2003
 Lithuania,lost,8,9,-,-,-,-,-,v Luxembourg,Luxembourg City,8 Nov 2003
 Russia,lost,18,19,2,1,1,1,0,v Portugal,Coimbra,27 Mar 2004
 Kazakhstan,lost,13,14,-,-,-,-,-,v Arabian Gulf,Doha,9 Apr 2004
-Germany,lost,13,14,-,-,-,-,-,v Netherlands,Amsterdam,10 Apr 2004
+Germany,lost,13,14,1,1,2,0,0,v Netherlands,Amsterdam,10 Apr 2004
 Austria,lost,18,19,-,-,-,-,-,v Luxembourg,Vienna,8 May 2004
 Tonga,lost,26,27,4,3,0,0,0,v Fiji,Nuku A'lofa,5 Jun 2004
 Italy,lost,24,25,4,2,0,0,0,v Romania,Bucharest,26 Jun 2004
@@ -10604,7 +10600,7 @@ England,lost,3,6,0,0,0,1,0,v Scotland,Murrayfield,19 Mar 1966
 Australia,lost,8,11,1,1,1,0,0,v Lions,Sydney,28 May 1966
 Romania,lost,0,3,0,0,0,0,0,v Italy,L'Aquila,6 Nov 1966
 Wales,lost,11,14,2,1,1,0,0,v Australia,Cardiff,3 Dec 1966
-Poland,lost,6,9,-,-,-,-,-,v Italy B,Prato,31 Dec 1966
+Poland,lost,6,9,0,0,2,0,0,v Italy B,Prato,31 Dec 1966
 East Germany,lost,0,3,0,0,0,0,0,v Poland,Polawi,-
 Wales,lost,0,3,0,0,0,0,0,v Ireland,Cardiff,11 Mar 1967
 Morocco,lost,0,3,0,0,0,0,0,v Spain,Madrid,9 Apr 1967
@@ -11643,7 +11639,7 @@ Portugal,lost,6,11,0,0,2,0,0,v Georgia,Lisbon,23 Feb 2008
 Andorra,lost,10,15,2,0,0,0,0,v Croatia,Split,19 Apr 2008
 Moldova,lost,9,14,0,0,3,0,0,v Ukraine,Chisinau,3 May 2008
 Slovenia,lost,17,22,-,-,-,-,-,v Bosnia & Her,Zenica,10 May 2008
-Peru,lost,20,25,-,-,-,-,-,v Colombia,Asuncion,23 Jun 2008
+Peru,lost,20,25,3,1,1,0,0,v Colombia,Asuncion,23 Jun 2008
 Tonga,lost,15,20,0,0,5,0,0,v Samoa,Nuku A'lofa,28 Jun 2008
 Tanzania,lost,17,22,-,-,-,-,-,v Mauritius,Curepipe,5 Jul 2008
 Australia,lost,14,19,2,2,0,0,0,v New Zealand,Hong Kong,1 Nov 2008
@@ -11870,11 +11866,11 @@ Fiji,lost,14,20,3,1,1,0,0,v Australia,Sydney,17 Jun 1961
 Scotland,lost,0,6,0,0,0,0,0,v Wales,Murrayfield,2 Feb 1963
 Bulgaria,lost,3,9,-,-,-,-,-,v East Germany,Birlad,26 May 1963
 Sweden,lost,0,6,0,0,0,0,0,v Denmark,Copenhagen,13 Oct 1963
-Poland,lost,6,12,-,-,-,-,-,v Italy B,L'Aquila,1 Dec 1963
+Poland,lost,6,12,0,0,1,1,0,v Italy B,L'Aquila,1 Dec 1963
 Wales,lost,0,6,0,0,0,0,0,v New Zealand,Cardiff,21 Dec 1963
 Fiji,lost,22,28,6,2,0,0,0,v Wales XV,Cardiff,26 Sep 1964
 Ireland,lost,8,14,1,1,1,0,0,v Wales,Cardiff,13 Mar 1965
-Poland,lost,6,12,-,-,-,-,-,v Italy B,Bytom,13 Jun 1965
+Poland,lost,6,12,0,0,2,0,0,v Italy B,Bytom,13 Jun 1965
 Argentina,lost,3,9,0,0,1,0,0,v Ox & Camb,Buenos Aires,18 Sep 1965
 Wallis and Futuna,lost,0,6,0,0,0,0,0,v New Hebrides,Noumea,-
 Netherlands,lost,3,9,-,-,-,-,-,v Belgium,Brussels,27 Mar 1966
@@ -11921,7 +11917,7 @@ Senegal,lost,9,15,-,-,-,-,-,v Cote d'Iv,Dakar,-
 West Germany,lost,16,22,-,-,-,-,-,v ,Hanover,17 Apr 1977
 Italy,lost,6,12,1,1,0,0,0,v Poland,Warsaw,23 Oct 1977
 Czechia,lost,4,10,1,0,0,0,0,v Italy,Prague,29 Oct 1977
-Brazil,lost,27,33,-,-,-,-,-,v Chile,Tucuman,29 Oct 1977
+Brazil,lost,27,33,3,3,2,1,0,v Chile,Tucuman,29 Oct 1977
 Ireland,lost,9,15,0,0,2,1,0,v England,Twickenham,18 Mar 1978
 Poland,lost,22,28,-,-,-,-,-,v Spain,Warsaw,21 May 1978
 Sweden,lost,6,12,-,-,-,-,-,v Belgium,Brussels,7 Nov 1978
@@ -12207,7 +12203,6 @@ Italy,lost,24,30,2,1,4,0,0,v Argentina,Santa Fe,11 Jun 2016
 Ireland,lost,26,32,2,2,4,0,0,v South Africa,Johannesburg,18 Jun 2016
 Madagascar,lost,24,30,4,2,0,0,0,v Senegal,Antananarive,19 Jun 2016
 Ireland,lost,13,19,1,1,2,0,0,v South Africa,Port Elizabeth,25 Jun 2016
-Hong Kong,lost,18,24,2,1,2,0,0,v Kenya A,Nairobi,23 Aug 2016
 South Africa,lost,17,23,2,2,1,0,0,v Australia,Brisbane,10 Sep 2016
 Georgia,lost,22,28,3,2,1,0,0,v Japan,Tbilisi,12 Nov 2016
 Uruguay,lost,23,29,2,2,3,0,0,v USA,San Antonio,4 Feb 2017
@@ -13233,7 +13228,7 @@ Togo,lost,11,20,-,-,-,-,-,v Nigeria,Lagos,18 Jul 2007
 England,lost,6,15,0,0,2,0,0,v South Africa,Stade de France,20 Oct 2007
 Monaco,lost,10,19,-,-,-,-,-,v Cyprus,Nicosia,31 Oct 2007
 Chad,lost,8,17,-,-,-,-,-,v Ghana,Accra,23 Jun 2008
-Paraguay,lost,6,15,-,-,-,-,-,v Brazil,Asuncion,29 Jun 2008
+Paraguay,lost,6,15,0,0,2,0,0,v Brazil,Asuncion,29 Jun 2008
 Tanzania,lost,16,25,-,-,-,-,-,v Reunion,Curepipe,1 Jul 2008
 Cyprus,lost,14,23,-,-,-,-,-,v Israel,Netanya,6 Sep 2008
 Austria,lost,9,18,-,-,-,-,-,v Slovenia,Vienna,8 Nov 2008
@@ -13664,7 +13659,7 @@ Denmark,lost,3,14,-,-,-,-,-,v Sweden,Malmo,13 Aug 1964
 Belgium,lost,3,14,-,-,-,-,-,v Netherlands,Rijwijk,-
 England,lost,3,14,0,0,1,0,0,v Wales,Cardiff,16 Jan 1965
 Czechia,lost,0,11,0,0,0,0,0,v Italy,Livorno,8 Dec 1965
-Canada,lost,8,19,2,1,0,0,0,v Lions XV,Toronto,17 Sep 1966
+Canada,lost,8,19,2,1,0,0,0,v Lions XV,Vancouver,17 Sep 1966
 Netherlands,lost,5,16,1,1,0,0,0,v Czech Rep,Prague,26 Nov 1966
 Scotland,lost,3,14,0,0,0,1,0,v New Zealand,Murrayfield,2 Dec 1967
 Denmark,lost,0,11,0,0,0,0,0,v Sweden,Helsingborg,27 Oct 1968
@@ -13762,7 +13757,7 @@ Samoa,lost,17,28,1,0,4,0,0,v Fiji,Tokyo,8 Jul 2001
 South Africa,lost,15,26,0,0,5,0,0,v New Zealand,Auckland,25 Aug 2001
 Belgium,lost,10,21,-,-,-,-,-,v Ukraine,Kiev,13 Oct 2001
 Ireland,lost,29,40,3,1,2,2,0,v New Zealand,Lansdowne Road,17 Nov 2001
-Venezuela,lost,3,14,-,-,-,-,-,v Brazil,Sao Paulo,17 Nov 2001
+Venezuela,lost,3,14,0,0,1,0,0,v Brazil,Sao Paulo,17 Nov 2001
 Bermuda,lost,12,23,2,1,0,0,0,v Trinidad & T,Grand Caymans,24 Nov 2001
 Tonga,lost,16,27,2,0,2,0,0,v Samoa,Nuku A'lofa,15 Jun 2002
 Wales,lost,8,19,1,0,1,0,0,v South Africa,Cape Town,15 Jun 2002
@@ -13945,7 +13940,7 @@ Thailand,lost,4,16,-,-,-,-,-,v C Taipai,Seoul,14 Nov 1976
 Malaysia,lost,0,12,0,0,0,0,0,v Thailand,Seoul,20 Nov 1976
 Switzerland,lost,6,18,-,-,-,-,-,v Serbia & Mon,Chavannes-pres-Renens,11 Dec 1976
 British and Irish Lions,lost,7,19,1,0,1,0,0,v New Zealand,Dunedin,30 Jul 1977
-Brazil,lost,13,25,-,-,-,-,-,v Paraguay,Concepcion,27 Oct 1977
+Brazil,lost,13,25,2,1,1,0,0,v Paraguay,Concepcion,27 Oct 1977
 France,lost,3,15,0,0,1,0,0,v New Zealand,Parc des Princes,19 Nov 1977
 Soviet Union,lost,4,16,-,-,-,-,-,v Romania XV,Kharkov,-
 Korea,lost,4,16,1,0,0,0,0,v Japan,Kuala Lumpur,25 Nov 1978
@@ -14251,7 +14246,7 @@ Netherlands,lost,14,27,2,0,2,0,0,v Czech Rep,Prague,12 Apr 1987
 England,lost,6,19,1,1,0,0,0,v Australia,Sydney,23 May 1987
 Tonga,lost,16,29,2,1,2,0,0,v Wales,Palmerston North,29 May 1987
 England,lost,3,16,0,0,1,0,0,v Wales,Brisbane,8 Jun 1987
-Poland,lost,9,22,-,-,-,-,-,v Italy B,Rho,8 Nov 1987
+Poland,lost,9,22,1,1,1,0,0,v Italy B,Rho,8 Nov 1987
 Spain,lost,0,13,0,0,0,0,0,v Italy,Barcelona,5 Dec 1987
 Serbia and Montenegro,lost,9,22,-,-,-,-,-,v Portugal,Split,8 May 1988
 Fiji,lost,12,25,0,0,3,1,0,v England,Suva,16 Jun 1988
@@ -14705,6 +14700,7 @@ Australia,lost,18,33,1,1,3,1,0,v New Zealand,Auckland,11 Sep 1982
 Belgium,lost,6,21,1,1,0,0,0,v Czech Rep,Brussels,27 Nov 1982
 Australia,lost,3,18,0,0,1,0,0,v Argentina,Brisbane,31 Jul 1983
 Romania,lost,3,18,0,0,1,0,0,v France,Bucharest,10 Nov 1984
+Poland,lost,4,19,1,0,0,0,0,v Italy B,Parma,17 Nov 1984
 Soviet Union,lost,21,36,2,2,0,3,0,v France XV,Tulle,19 May 1985
 Denmark,lost,0,15,0,0,0,0,0,v ,Essen,23 Nov 1985
 Romania,lost,18,33,0,0,5,1,0,v Scotland,Bucharest,29 Mar 1986
@@ -14807,7 +14803,7 @@ Denmark,lost,13,28,1,1,2,0,0,v Switzerland,Odense,5 Apr 2008
 New Zealand,lost,19,34,3,2,0,0,0,v Australia,Sydney,26 Jul 2008
 United States of America,lost,17,32,3,1,0,0,0,v Japan,Tokyo,22 Nov 2008
 Greece,lost,10,25,-,-,-,-,-,v Israel,Kfissa,22 Nov 2008
-Paraguay,lost,21,36,-,-,-,-,-,v Brazil,Montevideo,2 May 2009
+Paraguay,lost,21,36,2,1,3,0,0,v Brazil,Montevideo,2 May 2009
 Iran,lost,0,15,0,0,0,0,0,v Philippines,Manila,1 Jul 2009
 Senegal,lost,7,22,-,-,-,-,-,v Kenya,Safi,8 Jul 2009
 South Africa,lost,6,21,0,0,1,1,0,v Australia,Brisbane,5 Sep 2009
@@ -14921,12 +14917,11 @@ Wales,lost,18,34,1,1,4,0,0,v Scotland,Cardiff,20 Mar 1982
 Japan,lost,6,22,1,1,0,0,0,v NZ Unis,Pukekohe,30 May 1982
 Sweden,lost,3,19,-,-,-,-,-,v Spain,Arstad,8 May 1983
 Argentina,lost,13,29,1,0,2,1,0,v Australia,Sydney,7 Aug 1983
-Soviet Union,lost,3,19,-,-,-,-,-,v Romania,Bucharest,20 Nov 1983
+Soviet Union,lost,3,19,0,0,1,0,0,v Romania,Bucharest,20 Nov 1983
 Poland,lost,3,19,0,0,1,0,0,v France XV,Warsaw,16 May 1984
 Sweden,lost,3,19,-,-,-,-,-,v Belgium,Brussels,16 Oct 1984
 England,lost,3,19,0,0,1,0,0,v Australia,Twickenham,3 Nov 1984
 Poland,lost,6,22,-,-,-,-,-,v Italy U21,Pieve di Centro,15 Nov 1984
-Poland,lost,3,19,-,-,-,-,-,v Italy B,Parma,17 Nov 1984
 Morocco,lost,6,22,1,1,0,0,0,v Czech Rep,Rabat,21 Apr 1985
 Denmark,lost,0,16,0,0,0,0,0,v Sweden,Malmo,27 Apr 1985
 Norway,lost,12,28,-,-,-,-,-,v Denmark,Oslo,8 Oct 1985
@@ -15089,7 +15084,7 @@ Spain,lost,28,45,-,-,-,-,-,v France XV,Barcelona,25 Apr 1954
 Samoa,lost,7,24,-,-,-,-,-,v Tonga,Apia,-
 Ireland,lost,6,23,2,0,0,0,0,v France,Colombes,9 Apr 1960
 Italy,lost,0,17,0,0,0,0,0,v France,Chambery,2 Apr 1961
-Poland,lost,5,22,-,-,-,-,-,v Italy B,Poznan,22 Apr 1962
+Poland,lost,5,22,1,1,0,0,0,v Italy B,Poznan,22 Apr 1962
 Poland,lost,0,17,0,0,0,0,0,v Czech Rep,Pruszkow,26 May 1962
 Fiji,lost,9,26,0,0,2,1,0,v NZ Maori,Suva,25 Jul 1964
 South Africa,lost,3,20,0,0,1,0,0,v New Zealand,Auckland,18 Sep 1965
@@ -15196,6 +15191,7 @@ Kenya,lost,3,20,-,-,-,-,-,v Uganda,Kampala,24 May 2008
 Samoa,lost,17,34,3,1,0,0,0,v Fiji,Lautoka,7 Jun 2008
 England,lost,20,37,2,2,2,0,0,v New Zealand,Auckland,14 Jun 2008
 Botswana,lost,10,27,-,-,-,-,-,v Uganda,Gaberone,14 Jun 2008
+Colombia,lost,15,32,3,1,1,0,0,v Venezuela,Asuncion,21 Jun 2008
 United States of America,lost,10,27,1,1,0,1,0,v Ireland,Santa Clara,31 May 2009
 Mongolia,lost,21,38,3,3,0,0,0,v Kyrgystan,Tashkent,10 Jun 2009
 Zambia,lost,8,25,-,-,-,-,-,v Mauritius,Gaberone,25 Jul 2009
@@ -15309,7 +15305,7 @@ Switzerland,lost,12,30,-,-,-,-,-,v ,Heidelburg,31 Mar 1985
 Czechia,lost,0,18,0,0,0,0,0,v Portugal,Lisbon,18 Apr 1985
 Japan,lost,15,33,2,2,1,0,0,v Ireland XV,Tokyo,2 Jun 1985
 Italy,lost,0,18,0,0,0,0,0,v France XV,Annecy,15 Feb 1986
-Netherlands,lost,3,21,-,-,-,-,-,v Italy B,Piacenza,15 Feb 1986
+Netherlands,lost,3,21,0,0,1,0,0,v Italy B,Piacenza,15 Feb 1986
 Switzerland,lost,10,28,1,0,0,0,0,v Netherlands,Lausanne,6 Apr 1986
 Samoa,lost,14,32,2,0,2,0,0,v Wales,Apia,14 Jun 1986
 Malaysia,lost,15,33,-,-,-,-,-,v Sri Lanka,Bangkok,25 Nov 1986
@@ -15488,7 +15484,7 @@ Morocco,lost,7,26,-,-,-,-,-,v Netherlands,Hilversum,-
 France,lost,6,25,0,0,1,1,0,v Ireland,Lansdowne Road,1 Mar 1975
 United States of America,lost,14,33,2,0,2,0,0,v France,Chicago,12 Jun 1976
 Czechia,lost,10,29,-,-,-,-,-,v Romania A,Lvov,9 Aug 1976
-Paraguay,lost,3,22,-,-,-,-,-,v Chile,Tucuman,24 Oct 1977
+Paraguay,lost,3,22,0,0,1,0,0,v Chile,Tucuman,24 Oct 1977
 Netherlands,lost,0,19,0,0,0,0,0,v Scotland XV,Hilversum,-
 Serbia and Montenegro,lost,11,30,-,-,-,-,-,v Netherlands,Split,2 Dec 1978
 Guyana,lost,4,23,-,-,-,-,-,v Bermuda,Georgetown,-
@@ -15507,7 +15503,7 @@ England,lost,10,29,1,0,2,0,0,v France,Parc des Princes,15 Mar 1986
 Argentina,lost,9,28,1,1,1,0,0,v Fiji,Hamilton,24 May 1987
 Japan,lost,23,42,3,1,2,1,0,v Australia,Sydney,3 Jun 1987
 Ireland,lost,6,25,0,0,2,0,0,v France,Parc des Princes,20 Feb 1988
-Poland,lost,13,32,-,-,-,-,-,v Italy B,Sochacewz,25 Sep 1988
+Poland,lost,13,32,2,1,0,1,0,v Italy B,Sochacewz,25 Sep 1988
 Scotland,lost,13,32,2,1,1,0,0,v Australia,Murrayfield,19 Nov 1988
 Wales,lost,12,31,0,0,4,0,0,v France,Parc des Princes,18 Feb 1989
 Fiji,lost,13,32,-,-,-,-,-,v Samoa,Apia,10 Jun 1989
@@ -15588,7 +15584,6 @@ Czechia,lost,3,22,0,0,1,0,0,v Georgia,Prague,29 Mar 2008
 Niue Island,lost,27,46,-,-,-,-,-,v PNG,Paliati,22 Apr 2008
 Serbia and Montenegro,lost,3,22,0,0,1,0,0,v Sweden,Stockholm,26 Apr 2008
 Kazakhstan,lost,21,40,-,-,-,-,-,v Korea,Seoul,18 May 2008
-Colombia,lost,15,34,-,-,-,-,-,v Venezuela,Asuncion,21 Jun 2008
 Uganda,lost,20,39,-,-,-,-,-,v Kenya,Nairobi,16 Aug 2008
 South Africa,lost,0,19,0,0,0,0,0,v New Zealand,Cape Town,16 Aug 2008
 Latvia,lost,10,29,1,1,1,0,0,v Netherlands,Jelgava,8 Nov 2008
@@ -15658,7 +15653,7 @@ Niue Island,lost,10,29,-,-,-,-,-,v PNG,Port Moresby,27 Aug 2019
 Samoa,lost,15,34,2,1,1,0,0,v Australia,Parramatta,7 Sep 2019
 Samoa,lost,19,38,1,1,4,0,0,v Japan,Aichi,5 Oct 2019
 Georgia,lost,8,27,1,0,1,0,0,v Australia,Shizuoka,11 Oct 2019
-Belgium,lost,17,36,-,-,-,-,-,v Hong Kong,Neder-over-Heembeek,16 Nov 2019
+Belgium,lost,17,36,3,0,0,0,0,v Hong Kong,Neder-over-Heembeek,16 Nov 2019
 Russia,lost,12,31,2,1,0,0,0,v Spain,Sochi,1 Feb 2020
 Lithuania,lost,17,36,3,1,0,0,0,v Netherlands,Amsterdam,7 Mar 2020
 Australia,lost,6,26,0,0,1,0,1,v New Zealand,Sydney,20 Jul 1907
@@ -15969,7 +15964,7 @@ Togo,lost,6,27,-,-,-,-,-,v Ghana,Accra,29 Jun 2008
 Canada,lost,13,34,1,1,2,0,0,v Wales,Millennium Stadium,14 Nov 2008
 Monaco,lost,3,24,-,-,-,-,-,v Cyprus,Episkopi,6 Dec 2008
 Austria,lost,6,27,0,0,2,0,0,v Denmark,Linz,25 Apr 2009
-Paraguay,lost,13,34,-,-,-,-,-,v Chile,Montevideo,29 Apr 2009
+Paraguay,lost,13,34,1,1,2,0,0,v Chile,Montevideo,29 Apr 2009
 Italy,lost,6,27,0,0,2,0,0,v New Zealand,Christchurch,27 Jun 2009
 Zambia,lost,15,36,-,-,-,-,-,v Madagascar,Gaberone,22 Jul 2009
 Canada,lost,6,27,0,0,2,0,0,v Japan,Tokyo,21 Nov 2009
@@ -16674,7 +16669,7 @@ Wales,lost,5,31,1,0,0,0,0,v Ireland,Lansdowne Road,26 Feb 2006
 Germany,lost,10,36,1,1,1,0,0,v Spain,Madrid,27 May 2006
 Uruguay,lost,0,26,0,0,0,0,0,v Argentina,Buenos Aires,8 Jul 2006
 Ghana,lost,9,35,-,-,-,-,-,v Benin,Lome,29 Jul 2006
-Uruguay,lost,7,33,1,1,0,0,0,v USA,Stanford,7 Oct 2006
+Uruguay,lost,7,33,1,1,0,0,0,v USA,Palo Alto,7 Oct 2006
 Peru,lost,10,36,-,-,-,-,-,v Brazil,Caracas,14 Oct 2006
 Niue Island,lost,15,41,-,-,-,-,-,v Cook Islands,Pukekohe,21 Oct 2006
 Spain,lost,26,52,2,2,4,0,0,v Barbarians,Elche,23 May 2007
@@ -16830,7 +16825,7 @@ Uruguay,lost,12,39,2,1,0,0,0,v Romania,Bucharest,27 Nov 2010
 Pakistan,lost,10,37,1,1,1,0,0,v Guam,Jakarta,22 Jun 2011
 Costa Rica,lost,13,40,1,1,2,0,0,v Peru,Lima,21 Aug 2011
 Canada,lost,19,46,1,1,2,2,0,v France,Napier,18 Sep 2011
-Kenya,lost,17,44,-,-,-,-,-,v Hong Kong,Dubai,13 Dec 2011
+Kenya,lost,17,44,3,1,0,0,0,v Hong Kong,Dubai,13 Dec 2011
 Australia,lost,6,33,0,0,2,0,0,v France,Stade de France,10 Nov 2012
 Czechia,lost,15,42,0,0,5,0,0,v Ukraine,Dnepropetrovsk,17 Nov 2012
 Guatemala,lost,10,37,-,-,-,-,-,v Costa Rica,Guatemala City,8 Dec 2012
@@ -16933,7 +16928,7 @@ Costa Rica,lost,3,31,-,-,-,-,-,v Peru,Caracas,20 Oct 2006
 Andorra,lost,5,33,1,0,0,0,0,v Poland,Andorra la Vella,29 Sep 2007
 Switzerland,lost,12,40,-,-,-,-,-,v Netherlands,Amsterdam,3 Nov 2007
 Portugal,lost,3,31,0,0,1,0,0,v Georgia,Tbilisi,2 Feb 2008
-Colombia,lost,6,34,-,-,-,-,-,v Brazil,Asuncion,19 Jun 2008
+Colombia,lost,6,34,0,0,2,0,0,v Brazil,Asuncion,19 Jun 2008
 China,lost,15,43,-,-,-,-,-,v Malaysia,Kuala Lumpur,6 Jun 2009
 Andorra,lost,12,40,2,1,0,0,0,v Lithuania,Siauliai,10 Oct 2009
 Russia,lost,8,36,1,0,1,0,0,v Georgia,Trabzon,20 Mar 2010
@@ -17089,6 +17084,7 @@ Norway,lost,9,38,0,0,3,0,0,v Austria,Vienna,2 Nov 2019
 France,lost,8,38,2,1,0,0,0,v New Zealand,Parc des Princes,1 Jan 1906
 Australia,lost,8,38,1,1,1,0,0,v NZ XV,Sydney,16 Jul 1924
 Chile,lost,3,33,-,-,-,-,-,v Argentina,Buenos Aires,21 Aug 1938
+Chile,lost,0,30,0,0,0,0,0,v Ireland XV,Santiago,6 Aug 1952
 East Germany,lost,11,41,-,-,-,-,-,v Czech Rep,Kladno,15 May 1954
 Belgium,lost,3,33,-,-,-,-,-,v ,Cologne,14 Apr 1957
 Japan,lost,14,44,4,1,0,0,0,v Ox & Camb,Tokyo,4 Oct 1959
@@ -17328,7 +17324,6 @@ Austria,lost,10,42,1,1,0,1,0,v Sweden,Vienna,21 Oct 2000
 Tunisia,lost,15,47,2,1,1,0,0,v SA U23,Tunis,7 Dec 2000
 Denmark,lost,10,42,-,-,-,-,-,v Czech Rep,Prague,19 May 2001
 Canada,lost,7,39,1,1,0,0,0,v Japan,Tokyo,8 Jul 2001
-Colombia,lost,12,44,-,-,-,-,-,v Brazil,Bogota,3 Nov 2001
 Ireland,lost,8,40,1,0,0,1,0,v New Zealand,Auckland,22 Jun 2002
 Russia,lost,3,35,0,0,1,0,0,v Ireland,Krasnoyarsk,21 Sep 2002
 Canada,lost,3,35,0,0,1,0,0,v France,Stade de France,23 Nov 2002
@@ -17499,7 +17494,7 @@ Azerbaijan,lost,3,37,-,-,-,-,-,v Cyprus,Baku,29 Nov 2008
 Sri Lanka,lost,17,51,-,-,-,-,-,v Thailand,Dubai,11 Apr 2009
 Venezuela,lost,0,34,0,0,0,0,0,v Colombia,San Jose,5 Dec 2009
 Hong Kong,lost,0,34,0,0,0,0,0,v Germany,Heidelburg,11 Dec 2010
-Brazil,lost,3,37,-,-,-,-,-,v Hong Kong,Dubai,16 Dec 2011
+Brazil,lost,3,37,0,0,1,0,0,v Hong Kong,Dubai,16 Dec 2011
 Austria,lost,20,54,3,1,1,0,0,v Cyprus,Vienna,17 Nov 2012
 Italy,lost,10,44,1,1,1,0,0,v South Africa,Durban,8 Jun 2013
 Argentina,lost,6,40,0,0,2,0,0,v Wales,Millennium Stadium,16 Nov 2013
@@ -17537,7 +17532,7 @@ Japan,lost,13,48,2,1,1,0,0,v Ireland XV,Osaka,26 May 1985
 Brazil,lost,6,41,-,-,-,-,-,v France XV,Rio de Janeiro,5 Jun 1985
 Uruguay,lost,3,38,0,0,1,0,0,v Argentina,Montevideo,3 May 1987
 United States of America,lost,12,47,1,1,1,1,0,v Australia,Brisbane,31 May 1987
-Paraguay,lost,9,44,-,-,-,-,-,v Australia XV,Asuncion,27 Oct 1987
+Paraguay,lost,9,44,1,1,1,0,0,v Australia XV,Asuncion,27 Oct 1987
 Zimbabwe,lost,17,52,2,0,3,0,0,v Romania,Brasov,24 Sep 1989
 Fiji,lost,23,58,4,2,1,0,0,v England,Twickenham,4 Nov 1989
 Bulgaria,lost,10,45,-,-,-,-,-,v Netherlands,Hilversum,4 Mar 1990
@@ -17555,6 +17550,7 @@ Scotland,lost,16,51,1,1,3,0,0,v France,Murrayfield,21 Feb 1998
 Austria,lost,0,35,0,0,0,0,0,v Croatia,Zapresic,22 May 1999
 Netherlands,lost,6,41,0,0,2,0,0,v Georgia,Tbilisi,19 Mar 2000
 Niue Island,lost,6,41,0,0,2,0,0,v Tahiti,Papetee,16 Jun 2001
+Colombia,lost,12,47,0,0,4,0,0,v Brazil,Bogota,3 Nov 2001
 Uruguay,lost,16,51,1,1,2,1,0,v Canada,Edmonton,10 Aug 2002
 Chinese Taipei,lost,15,50,-,-,-,-,-,v Korea,Ulsan,9 Oct 2002
 Scotland,lost,3,38,0,0,1,0,0,v France,Stade de France,23 Feb 2003
@@ -17600,6 +17596,7 @@ Georgia,lost,10,45,1,1,1,0,0,v Fiji,Osaka,3 Oct 2019
 Russia,lost,0,35,0,0,0,0,0,v Ireland,Kobe,3 Oct 2019
 Uruguay,lost,10,45,1,1,1,0,0,v Australia,Oita,5 Oct 2019
 Bosnia and Herzegovina,lost,10,45,1,1,1,0,0,v Andorra,Andorra-la-Vella,9 Nov 2019
+Chile,lost,6,42,-,-,-,-,-,v Ox & Camb,Santiago,19 Sep 1956
 Netherlands,lost,6,42,-,-,-,-,-,v ,Breukelen,9 Oct 1960
 Czechia,lost,6,42,0,0,2,0,0,v Romania,Bucharest,23 Nov 1969
 Tonga,lost,8,44,2,0,0,0,0,v Scotland XV,Murrayfield,28 Sep 1974
@@ -17720,7 +17717,7 @@ Costa Rica,lost,5,42,-,-,-,-,-,v Colombia,Caracas,18 Oct 2006
 Zimbabwe,lost,8,45,-,-,-,-,-,v SA Amateur,Johannesburg,26 May 2007
 Malaysia,lost,7,44,-,-,-,-,-,v Thailand,Colombo,10 Nov 2007
 United States of America,lost,9,46,0,0,3,0,0,v Ireland A,Kingston,11 Jun 2008
-Chile,lost,9,46,-,-,-,-,-,v Uruguay,Montevideo,2 May 2009
+Chile,lost,9,46,0,0,3,0,0,v Uruguay,Montevideo,2 May 2009
 Germany,lost,11,48,1,0,2,0,0,v Russia,Sotchi,13 Mar 2010
 Indonesia,lost,12,49,-,-,-,-,-,v Guam,Jakarta,12 Jun 2010
 Kazakhstan,lost,7,44,1,1,0,0,0,v Uruguay,Montevideo,17 Jul 2010
@@ -17791,7 +17788,7 @@ Wales,lost,3,41,0,0,1,0,0,v New Zealand,Millennium Stadium,5 Nov 2005
 Ireland,lost,7,45,1,1,0,0,0,v New Zealand,Lansdowne Road,12 Nov 2005
 Ukraine,lost,14,52,2,2,0,0,0,v Portugal,Lisbon,13 May 2006
 Azerbaijan,lost,3,41,-,-,-,-,-,v Monaco,Paphos,3 Nov 2007
-Peru,lost,3,41,-,-,-,-,-,v Venezuela,Asuncion,29 Jun 2008
+Peru,lost,3,41,0,0,1,0,0,v Venezuela,Asuncion,29 Jun 2008
 Germany,lost,6,44,0,0,2,0,0,v Portugal,Lisbon,21 Feb 2009
 Canada,lost,8,46,1,0,1,0,0,v Japan,Miyagi,15 Nov 2009
 Samoa,lost,5,43,1,0,0,0,0,v France,Stade de France,21 Nov 2009
@@ -17800,7 +17797,7 @@ Ireland,lost,28,66,4,4,0,0,0,v New Zealand,New Plymouth,12 Jun 2010
 Spain,lost,22,60,2,0,4,0,0,v Canada,Madrid,13 Nov 2010
 Colombia,lost,19,57,3,2,0,0,0,v Venezuela,Lima,21 Aug 2011
 Costa Rica,lost,12,50,2,1,0,0,0,v Venezuela,Lima,24 Aug 2011
-United Arab Emirates,lost,17,55,-,-,-,-,-,v Kenya,Dubai,16 Dec 2011
+United Arab Emirates,lost,17,55,2,1,0,0,0,v Kenya,Dubai,16 Dec 2011
 Thailand,lost,7,45,1,1,0,0,0,v Sri Lanka,Colombo,3 Apr 2013
 Curacao,lost,3,41,0,0,1,0,0,v Barbados,Bridgetown,7 Apr 2013
 Serbia and Montenegro,lost,0,38,0,0,0,0,0,v Denmark,Odense,13 Apr 2013
@@ -17977,7 +17974,7 @@ Hungary,lost,0,41,0,0,0,0,0,v Slovenia,Ljubliana,6 Nov 2004
 Japan,lost,16,57,1,1,3,0,0,v Tonga,Fukuoka,4 Jun 2006
 India,lost,20,61,-,-,-,-,-,v Malaysia,Bangkok,5 Jun 2006
 Sri Lanka,lost,11,52,-,-,-,-,-,v Arabian Gulf,Sharjah,27 Apr 2007
-Venezuela,lost,3,44,-,-,-,-,-,v Paraguay,Asuncion,19 Jun 2008
+Venezuela,lost,3,44,0,0,1,0,0,v Paraguay,Asuncion,19 Jun 2008
 Serbia and Montenegro,lost,0,41,0,0,0,0,0,v Armenia,Smederevo,13 Sep 2008
 Canada,lost,0,41,0,0,0,0,0,v Scotland,Aberdeen,22 Nov 2008
 Serbia and Montenegro,lost,9,50,0,0,3,0,0,v Lithuania,Vilnius,2 May 2009
@@ -18076,7 +18073,7 @@ Japan,lost,0,43,0,0,0,0,0,v England Stud,Osaka,19 Sep 1982
 Romania,lost,12,55,0,0,4,0,0,v France,Wellington,28 May 1987
 Wales,lost,6,49,1,1,0,0,0,v New Zealand,Brisbane,14 Jun 1987
 Zimbabwe,lost,26,69,4,3,0,0,0,v Namibia,Windhoek,16 May 1992
-Tunisia,lost,8,51,-,-,-,-,-,v Italy B,Leno,27 Mar 1993
+Tunisia,lost,8,51,1,0,1,0,0,v Italy B,Leno,27 Mar 1993
 Luxembourg,lost,5,48,1,0,0,0,0,v Sweden,Karlskrona,19 Apr 1997
 Denmark,lost,5,48,-,-,-,-,-,v Netherlands,Hilversum,10 May 1997
 Belgium,lost,5,48,1,0,0,0,0,v Ukraine,Kiev,18 Oct 1997
@@ -18350,6 +18347,7 @@ Japan,lost,3,51,0,0,1,0,0,v Junior ABs,Tokyo,24 Jun 2007
 Thailand,lost,21,69,-,-,-,-,-,v Kazakhstan,Colombo,3 Nov 2007
 Austria,lost,0,48,0,0,0,0,0,v Lithuania,Vilnius,3 May 2008
 Netherlands,lost,3,51,0,0,1,0,0,v Belgium,Brussels,3 May 2008
+Venezuela,lost,8,56,1,0,1,0,0,v Brazil,Asuncion,23 Jun 2008
 Moldova,lost,6,54,0,0,2,0,0,v Sweden,Stockholm,27 Oct 2012
 Benin,lost,0,48,0,0,0,0,0,v Niger,Niamey,3 Jun 2013
 Japan,lost,6,54,0,0,2,0,0,v New Zealand,Tokyo,2 Nov 2013
@@ -18536,8 +18534,7 @@ Israel,lost,7,60,1,1,0,0,0,v Lithuania,Vilnius,23 Oct 2004
 Pakistan,lost,3,56,-,-,-,-,-,v India,Hong Kong,30 Oct 2004
 Hong Kong,lost,3,56,0,0,1,0,0,v Korea,Hong Kong,22 May 2005
 Bulgaria,lost,12,65,0,0,4,0,0,v Lithuania,Vilnius,29 Oct 2005
-Venezuela,lost,8,61,-,-,-,-,-,v Brazil,Asuncion,23 Jun 2008
-Colombia,lost,7,60,-,-,-,-,-,v Paraguay,Asuncion,26 Jun 2008
+Colombia,lost,7,60,1,1,0,0,0,v Paraguay,Asuncion,26 Jun 2008
 Hong Kong,lost,6,59,0,0,2,0,0,v Japan,Hong Kong,2 May 2009
 Germany,lost,0,53,0,0,0,0,0,v Russia,Hanover,2 May 2009
 China,lost,3,56,0,0,1,0,0,v Thailand,Delhi,5 Jun 2010
@@ -18792,7 +18789,7 @@ Lithuania,lost,6,69,-,-,-,-,-,v Denmark,Copenhagen,7 May 1994
 Netherlands,lost,10,73,1,1,1,0,0,v Russia,Krasnodar,17 Feb 2002
 Italy,lost,7,70,1,1,0,0,0,v New Zealand,Melbourne,11 Oct 2003
 Rwanda,lost,8,71,-,-,-,-,-,v Tanzania,Arusha,19 Aug 2006
-United Arab Emirates,lost,3,66,-,-,-,-,-,v Brazil,Dubai,13 Dec 2011
+United Arab Emirates,lost,3,66,0,0,1,0,0,v Brazil,Dubai,13 Dec 2011
 Brunei,lost,7,70,1,1,0,0,0,v Laos,Phnom Penh,28 Jun 2012
 Benin,lost,0,63,0,0,0,0,0,v Togo,Niamey,10 Jun 2013
 Estonia,lost,12,75,2,1,0,0,0,v Denmark,Tallin,29 Apr 2017
@@ -18884,7 +18881,7 @@ Finland,lost,4,72,-,-,-,-,-,v Sweden,Karlstad,28 Sep 1991
 United States of America,lost,6,74,0,0,2,0,0,v NZ Maori,Santa Clara,7 Jun 2006
 Cameroon,lost,8,76,-,-,-,-,-,v Kenya,Nairobi,13 Jul 2008
 Chile,lost,3,71,0,0,1,0,0,v Argentina,Santiago,8 Nov 2008
-Brazil,lost,3,71,-,-,-,-,-,v Uruguay,Montevideo,29 Apr 2009
+Brazil,lost,3,71,0,0,0,1,0,v Uruguay,Montevideo,29 Apr 2009
 Paraguay,lost,3,71,0,0,1,0,0,v Chile,Cataratas,17 May 2011
 Brazil,lost,0,68,0,0,0,0,0,v Portugal,Sao Paulo,15 Nov 2013
 El Salvador,lost,3,71,0,0,1,0,0,v Costa Rica,Tres Rios,1 Dec 2013
@@ -18904,6 +18901,7 @@ Pakistan,lost,3,72,-,-,-,-,-,v C Taipai,Bangkok,16 May 2007
 Czechia,lost,7,76,1,1,0,0,0,v Romania,Bucharest,22 Mar 2008
 Germany,lost,0,69,0,0,0,0,0,v Portugal,Heusenstamm,27 Feb 2010
 Bulgaria,lost,10,79,1,1,1,0,0,v Cyprus,Paphos,16 Mar 2013
+Chile,lost,3,73,-,-,-,-,-,v SA Gazelles,Santiago,20 Aug 1966
 Uruguay,lost,0,70,0,0,0,0,0,v Argentina,Concepcion,28 Oct 1977
 Norway,lost,0,70,0,0,0,0,0,v Denmark,Stavanger,25 Sep 1993
 Malaysia,lost,3,73,-,-,-,-,-,v Japan XV,Sapporo,-
@@ -19191,3 +19189,5 @@ Paraguay,lost,0,102,0,0,0,0,0,v Chile,Montevideo,3 May 2003
 Cook Islands,lost,6,108,0,0,2,0,0,v Fiji,Suva,28 Jun 2014
 United Arab Emirates,lost,3,106,0,0,1,0,0,v Japan,Fukuoka,5 May 2012
 Brazil,lost,3,109,0,0,1,0,0,v Argentina,Santiago,9 Oct 1979
+Malaysia,lost,5,112,-,-,-,-,-,v Korea,Taipei,5 Nov 1996
+Sri Lanka,lost,0,108,0,0,0,0,0,v Hong Kong,Taipei,9 Nov 1980
