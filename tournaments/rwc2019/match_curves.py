@@ -30,7 +30,7 @@ RANKINGS = """1,(2),NEW ZEALAND,89.40,
 RANKINGS_DICT = {}
 for r in RANKINGS.split(",\n"):
     rank, _, country, points = r.split(",")
-    RANKINGS_DICT.update({country: (int(rank), float(points))})
+    RANKINGS_DICT |= {country: (int(rank), float(points))}
 
 
 def rel_data(data):
