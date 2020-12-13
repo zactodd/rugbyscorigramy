@@ -42,6 +42,7 @@ class IDataScrapper:
         return "{}?{}".format(url, ";".join(f"{k}={v}" for k, v in queries.items()))
 
 
+@DeprecationWarning
 class ESPNScrum(IDataScrapper):
 
     def __init__(self):
@@ -140,6 +141,6 @@ class PickAndGo(IDataScrapper):
 
 # es = ESPNScrum()
 # es.save_data("datasets/espn_scrum_data.csv")
-#
+
 # pg = PickAndGo()
 # pg.save_data("datasets/pick_and_go_data.csv")
